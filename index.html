@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width" name="viewport">
+        <title>Convert CSV File to JSON</title>
+        <style type="text/css">
+        output {
+            display: block;
+            margin-top: 4em;
+        }
+        </style>
+    </head>
+    <body>
+        <p>Select Local CSV File : </p>
+        <input id="csvFilePicker" type="file" />
+
+        <output id="out">
+        </output>
+
+        <script type="text/javascript">
+            function addTextNode(jsonText) {
+                var textNode = document.createElement('article');
+                textNode.innerHTML = jsonText;
+                document.getElementById('out').appendChild(textNode);
+            }
+
+            var fileinput = document.getElementById("csvFilePicker");
+            readFile = function() {
+                var reader = new FileReader();
+                reader.onload = function() {
+                    //document.getElementById("out").innerHTML = reader.result;
+                    var rows = reader.result.split("\n");
+                    var textNode;
+
+                    var startIndex = 0;
+                    var endIndex = 1000;
+                    
+                    startIndex = (startIndex >= rows.length)?rows.length - 1 : startIndex;
+                    endIndex = (endIndex >= rows.length)?rows.length : endIndex;
+                    for (var i = startIndex; i < endIndex; i ++) {
+                        var rowCols = rows[i].split(",");
+                        
+                        addTextNode('{' + '<br>' + 
+                                    '"uniName":"' + rowCols[0] + '",' + '<br>' +
+                                    '"uniUrl":"' + rowCols[0] + '",' + '<br>' +
+                                    '"uniToolTip":"' + rowCols[0] + '",' + '<br>' +
+                                    '"courseName":"' + rowCols[0] + '",' + '<br>' +
+                                    '"courseUrl":"' + rowCols[0] + '",' + '<br>' +
+                                    '"courseToolTip":"' + rowCols[0] + '",' + '<br>' +
+                                    '"subjectName":"' + rowCols[0] + '",' + '<br>' +
+                                    '"subjectToolTip":"' + rowCols[0] + '",' + '<br>' +
+                                    '"entry":"' + rowCols[0] + '",' + '<br>' +
+                                    '"entryToolTip":"' + rowCols[0] + '",' + '<br>' +
+                                    '"UCAS":"' + rowCols[0] + '",' + '<br>' +
+                                    '"UCASToolTip":"' + rowCols[0] + '",' + '<br>' +
+                                    '"years":"' + rowCols[0] + '",' + '<br>' +
+                                    '"yearsToolTip":"' + rowCols[0] + '",' + '<br>' +
+                                    '"qualification":"' + rowCols[0] + '",' + '<br>' +
+                                    '"qualificationToolTip":"' + rowCols[0] + '",' + '<br>' +
+                                    '"offers":"' + rowCols[0] + '",' + '<br>' +
+                                    '"offersToolTip":"' + rowCols[0] + '",' + '<br>' +
+                                    '"group":"' + rowCols[0] + '",' + '<br>' +
+                                    '"groupUrl":"' + rowCols[0] + '",' + '<br>' +
+                                    '"groupToolTip":"' + rowCols[0] + '",' + '<br>' +
+                                    '"rank2011":"' + rowCols[0] + '",' + '<br>' +
+                                    '"rank2012":"' + rowCols[0] + '"' + '<br>' +
+                                    '},');
+                    }
+                };
+                reader.readAsBinaryString(fileinput.files[0]);
+            };
+
+            fileinput.addEventListener('change', readFile);
+        </script>
+    </body>
+</html>

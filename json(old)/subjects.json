@@ -1,0 +1,5045 @@
+﻿[
+  {
+    "text":"History "
+  },
+  {
+    "text":"Politics "
+  },
+  {
+    "text":"Medicine and Dentistry "
+  },
+  {
+    "text":"Subjects allied to Medicine "
+  },
+  {
+    "text":"Biological Sciences "
+  },
+  {
+    "text":"Veterinary Sciences, Agriculture and related subjects "
+  },
+  {
+    "text":"Physical Sciences "
+  },
+  {
+    "text":"Mathematical and Computer Sciences "
+  },
+  {
+    "text":"Engineering "
+  },
+  {
+    "text":"Technologies "
+  },
+  {
+    "text":"Architecture, Building and Planning "
+  },
+  {
+    "text":"Social studies "
+  },
+  {
+    "text":"Law "
+  },
+  {
+    "text":"Business and Administrative studies "
+  },
+  {
+    "text":"Mass Communications and Documentation "
+  },
+  {
+    "text":"Linguistics, Classics and related subjects "
+  },
+  {
+    "text":"European Languages, Literature and related subjects "
+  },
+  {
+    "text":"Eastern, Asiatic, African, American and Australasian Languages, Literature and related subjects "
+  },
+  {
+    "text":"Historical and Philosophical studies "
+  },
+  {
+    "text":"Creative Arts and Design "
+  },
+  {
+    "text":"Education"
+  },
+  {
+    "text":"Pre-clinical medicine"
+  },
+  {
+    "text":"Pre-clinical dentistry"
+  },
+  {
+    "text":"Clinical medicine"
+  },
+  {
+    "text":"Clinical dentistry"
+  },
+  {
+    "text":"Others in medicine & dentistry"
+  },
+  {
+    "text":"Medicine & dentistry not elsewhere classified"
+  },
+  {
+    "text":"Anatomy, physiology & pathology"
+  },
+  {
+    "text":"Anatomy"
+  },
+  {
+    "text":"Physiology"
+  },
+  {
+    "text":"Clinical physiology"
+  },
+  {
+    "text":"Pathology"
+  },
+  {
+    "text":"Cellular pathology"
+  },
+  {
+    "text":"Pathobiology"
+  },
+  {
+    "text":"Neuroscience"
+  },
+  {
+    "text":"Physiotherapy"
+  },
+  {
+    "text":"Podiatry"
+  },
+  {
+    "text":"Anatomy, physiology & pathology not elsewhere classified"
+  },
+  {
+    "text":"Pharmacology, toxicology & pharmacy"
+  },
+  {
+    "text":"Pharmacology"
+  },
+  {
+    "text":"Toxicology"
+  },
+  {
+    "text":"Pharmacy"
+  },
+  {
+    "text":"Pharmacology, toxicology & pharmacy not elsewhere classified"
+  },
+  {
+    "text":"Complementary medicines, therapies & well-being"
+  },
+  {
+    "text":"Osteopathy"
+  },
+  {
+    "text":"Chiropractic"
+  },
+  {
+    "text":"Alternative medicine & therapies"
+  },
+  {
+    "text":"Chinese"
+  },
+  {
+    "text":"Herbalism"
+  },
+  {
+    "text":"Acupuncture"
+  },
+  {
+    "text":"Aromatherapy"
+  },
+  {
+    "text":"Hypnotherapy"
+  },
+  {
+    "text":"Reflexology"
+  },
+  {
+    "text":"Hair & beauty science"
+  },
+  {
+    "text":"Hair services"
+  },
+  {
+    "text":"Beauty therapies"
+  },
+  {
+    "text":"Make-up"
+  },
+  {
+    "text":"Spa & water-based therapies"
+  },
+  {
+    "text":"Complementary medicines, therapies & well-being not elsewhere classified"
+  },
+  {
+    "text":"Nutrition"
+  },
+  {
+    "text":"Dietetics"
+  },
+  {
+    "text":"Nutrition not elsewhere classified"
+  },
+  {
+    "text":"Ophthalmics"
+  },
+  {
+    "text":"Optometry"
+  },
+  {
+    "text":"Orthoptics"
+  },
+  {
+    "text":"Ophthalmics not elsewhere classified"
+  },
+  {
+    "text":"Aural & oral sciences"
+  },
+  {
+    "text":"Audiology"
+  },
+  {
+    "text":"Speech science"
+  },
+  {
+    "text":"Language pathology"
+  },
+  {
+    "text":"Aural & oral sciences not elsewhere classified"
+  },
+  {
+    "text":"Nursing"
+  },
+  {
+    "text":"Palliative care nursing"
+  },
+  {
+    "text":"Clinical practice nursing"
+  },
+  {
+    "text":"Community nursing"
+  },
+  {
+    "text":"Health visiting"
+  },
+  {
+    "text":"School nursing"
+  },
+  {
+    "text":"Practice nursing"
+  },
+  {
+    "text":"Midwifery"
+  },
+  {
+    "text":"Children's nursing"
+  },
+  {
+    "text":"Neonatal care"
+  },
+  {
+    "text":"Adult nursing"
+  },
+  {
+    "text":"Older people nursing"
+  },
+  {
+    "text":"Dental nursing"
+  },
+  {
+    "text":"Mental health nursing"
+  },
+  {
+    "text":"Learning disability nursing"
+  },
+  {
+    "text":"Medical nursing"
+  },
+  {
+    "text":"Critical care nursing"
+  },
+  {
+    "text":"Surgical nursing"
+  },
+  {
+    "text":"Emergency nursing"
+  },
+  {
+    "text":"Nursing not elsewhere classified"
+  },
+  {
+    "text":"Medical technology"
+  },
+  {
+    "text":"Cardiography"
+  },
+  {
+    "text":"Radiology"
+  },
+  {
+    "text":"Radiography, diagnostic"
+  },
+  {
+    "text":"Radiography, therapeutic"
+  },
+  {
+    "text":"Biomechanics & prosthetics (non-clinical)"
+  },
+  {
+    "text":"Dental technology"
+  },
+  {
+    "text":"Mortuary technology"
+  },
+  {
+    "text":"Medical technology not elsewhere classified"
+  },
+  {
+    "text":"Others in subjects allied to medicine"
+  },
+  {
+    "text":"Environmental health"
+  },
+  {
+    "text":"Occupational health"
+  },
+  {
+    "text":"Occupational therapy"
+  },
+  {
+    "text":"Counselling"
+  },
+  {
+    "text":"Paramedical science"
+  },
+  {
+    "text":"Physician assistant studies"
+  },
+  {
+    "text":"Subjects allied to medicine not elsewhere classified"
+  },
+  {
+    "text":"Biology"
+  },
+  {
+    "text":"Applied biology"
+  },
+  {
+    "text":"Parasitology"
+  },
+  {
+    "text":"Behavioural biology"
+  },
+  {
+    "text":"Cell biology"
+  },
+  {
+    "text":"Applied cell biology"
+  },
+  {
+    "text":"Developmental/Reproductive biology"
+  },
+  {
+    "text":"Developmental biology"
+  },
+  {
+    "text":"Reproductive biology"
+  },
+  {
+    "text":"Environmental biology"
+  },
+  {
+    "text":"Marine/Freshwater biology"
+  },
+  {
+    "text":"Marine biology"
+  },
+  {
+    "text":"Freshwater biology"
+  },
+  {
+    "text":"Population biology"
+  },
+  {
+    "text":"Ecology"
+  },
+  {
+    "text":"Biodiversity"
+  },
+  {
+    "text":"Evolution"
+  },
+  {
+    "text":"Community ecology"
+  },
+  {
+    "text":"Conservation ecology"
+  },
+  {
+    "text":"Ecosystem ecology & land use"
+  },
+  {
+    "text":"Population ecology"
+  },
+  {
+    "text":"Ecotoxicology"
+  },
+  {
+    "text":"Biology not elsewhere classified"
+  },
+  {
+    "text":"Biometry"
+  },
+  {
+    "text":"Botany"
+  },
+  {
+    "text":"Applied botany"
+  },
+  {
+    "text":"Mycology"
+  },
+  {
+    "text":"Plant biotechnology"
+  },
+  {
+    "text":"Plant cell science"
+  },
+  {
+    "text":"Plant pathology"
+  },
+  {
+    "text":"Developmental & reproductive plant biology"
+  },
+  {
+    "text":"Systematic botany"
+  },
+  {
+    "text":"Botany not elsewhere classified"
+  },
+  {
+    "text":"Plant physiology"
+  },
+  {
+    "text":"Zoology"
+  },
+  {
+    "text":"Applied zoology"
+  },
+  {
+    "text":"Cell zoology"
+  },
+  {
+    "text":"Developmental & reproductive zoology"
+  },
+  {
+    "text":"Entomology"
+  },
+  {
+    "text":"Marine zoology"
+  },
+  {
+    "text":"Pest science"
+  },
+  {
+    "text":"Systematic zoology"
+  },
+  {
+    "text":"Zoology not elsewhere classified"
+  },
+  {
+    "text":"Genetics"
+  },
+  {
+    "text":"Applied genetics"
+  },
+  {
+    "text":"Human genetics"
+  },
+  {
+    "text":"Medical & veterinary genetics"
+  },
+  {
+    "text":"Medical genetics"
+  },
+  {
+    "text":"Veterinary genetics"
+  },
+  {
+    "text":"Molecular genetics"
+  },
+  {
+    "text":"Transcriptomics"
+  },
+  {
+    "text":"Genomics"
+  },
+  {
+    "text":"Functional genomics"
+  },
+  {
+    "text":"Genome organisation"
+  },
+  {
+    "text":"Genetic engineering"
+  },
+  {
+    "text":"Population genetics & evolution"
+  },
+  {
+    "text":"Genetics not elsewhere classified"
+  },
+  {
+    "text":"Microbiology"
+  },
+  {
+    "text":"Applied microbiology"
+  },
+  {
+    "text":"Medical & veterinary microbiology"
+  },
+  {
+    "text":"Medical microbiology"
+  },
+  {
+    "text":"Veterinary microbiology"
+  },
+  {
+    "text":"Bacteriology"
+  },
+  {
+    "text":"Virology"
+  },
+  {
+    "text":"Immunology"
+  },
+  {
+    "text":"Serology"
+  },
+  {
+    "text":"Microbiology not elsewhere classified"
+  },
+  {
+    "text":"Sport & exercise science"
+  },
+  {
+    "text":"Sport coaching"
+  },
+  {
+    "text":"Sport development"
+  },
+  {
+    "text":"Sport conditioning, rehabilitation & therapy"
+  },
+  {
+    "text":"Sport studies"
+  },
+  {
+    "text":"Sport technology"
+  },
+  {
+    "text":"Sport & exercise science not elsewhere classified"
+  },
+  {
+    "text":"Psychology not elsewhere classified"
+  },
+  {
+    "text":"Molecular biology, biophysics & biochemistry"
+  },
+  {
+    "text":"Applied molecular biology, biophysics & biochemistry"
+  },
+  {
+    "text":"Biological chemistry"
+  },
+  {
+    "text":"Metabolic biochemistry"
+  },
+  {
+    "text":"Medical & veterinary biochemistry"
+  },
+  {
+    "text":"Medical biochemistry"
+  },
+  {
+    "text":"Veterinary biochemistry"
+  },
+  {
+    "text":"Plant biochemistry"
+  },
+  {
+    "text":"Biomolecular science"
+  },
+  {
+    "text":"Biophysical science"
+  },
+  {
+    "text":"Molecular biology, biophysics & biochemistry not elsewhere classified"
+  },
+  {
+    "text":"Psychology"
+  },
+  {
+    "text":"Applied psychology"
+  },
+  {
+    "text":"Occupational psychology"
+  },
+  {
+    "text":"Educational psychology"
+  },
+  {
+    "text":"Sport psychology"
+  },
+  {
+    "text":"Organisational psychology"
+  },
+  {
+    "text":"Business psychology"
+  },
+  {
+    "text":"Forensic psychology"
+  },
+  {
+    "text":"Developmental psychology"
+  },
+  {
+    "text":"Child psychology"
+  },
+  {
+    "text":"The psychology of ageing"
+  },
+  {
+    "text":"Methodological & conceptual issues in psychology"
+  },
+  {
+    "text":"Research methods in psychology"
+  },
+  {
+    "text":"Quantitative psychology"
+  },
+  {
+    "text":"Qualitative psychology"
+  },
+  {
+    "text":"History of psychology"
+  },
+  {
+    "text":"Philosophy of psychology"
+  },
+  {
+    "text":"Psychology in health & medicine"
+  },
+  {
+    "text":"Health psychology"
+  },
+  {
+    "text":"Clinical psychology"
+  },
+  {
+    "text":"Counselling psychology"
+  },
+  {
+    "text":"Psychotherapy"
+  },
+  {
+    "text":"Clinical neuropsychology"
+  },
+  {
+    "text":"Community psychology"
+  },
+  {
+    "text":"Psychoanalytical studies"
+  },
+  {
+    "text":"Psychology of mental health"
+  },
+  {
+    "text":"Cognitive & affective psychology"
+  },
+  {
+    "text":"Psychological modelling"
+  },
+  {
+    "text":"Psychology of communication"
+  },
+  {
+    "text":"Psychology of memory & learning"
+  },
+  {
+    "text":"Psychology of perception"
+  },
+  {
+    "text":"Psychology of higher cognitive processes"
+  },
+  {
+    "text":"Experimental psychology"
+  },
+  {
+    "text":"Affective psychology"
+  },
+  {
+    "text":"Transpersonal psychology"
+  },
+  {
+    "text":"Psychobiology"
+  },
+  {
+    "text":"Cognitive neuroscience"
+  },
+  {
+    "text":"Affective neuroscience"
+  },
+  {
+    "text":"Psychopharmacology"
+  },
+  {
+    "text":"Evolutionary psychology"
+  },
+  {
+    "text":"Animal psychology"
+  },
+  {
+    "text":"Personality & individual differences"
+  },
+  {
+    "text":"Psychometrics"
+  },
+  {
+    "text":"Psychology of gender"
+  },
+  {
+    "text":"Cross-cultural psychology"
+  },
+  {
+    "text":"Social psychology"
+  },
+  {
+    "text":"Social cognition"
+  },
+  {
+    "text":"Others in biological sciences"
+  },
+  {
+    "text":"Applied biological sciences"
+  },
+  {
+    "text":"Biological sciences not elsewhere classified"
+  },
+  {
+    "text":"Pre-clinical veterinary medicine"
+  },
+  {
+    "text":"Pre-clinical veterinary medicine not elsewhere classified"
+  },
+  {
+    "text":"Clinical veterinary medicine & dentistry"
+  },
+  {
+    "text":"Clinical veterinary medicine"
+  },
+  {
+    "text":"Clinical veterinary dentistry"
+  },
+  {
+    "text":"Clinical veterinary medicine & dentistry not elsewhere classified"
+  },
+  {
+    "text":"Animal science"
+  },
+  {
+    "text":"Veterinary nursing"
+  },
+  {
+    "text":"Animal health"
+  },
+  {
+    "text":"Animal anatomy"
+  },
+  {
+    "text":"Animal physiology"
+  },
+  {
+    "text":"Animal pathology"
+  },
+  {
+    "text":"Animal pharmacology"
+  },
+  {
+    "text":"Animal toxicology"
+  },
+  {
+    "text":"Animal pharmacy"
+  },
+  {
+    "text":"Animal nutrition"
+  },
+  {
+    "text":"Animal welfare"
+  },
+  {
+    "text":"Veterinary public health"
+  },
+  {
+    "text":"Overseas veterinary development"
+  },
+  {
+    "text":"Animal sciences not elsewhere classified"
+  },
+  {
+    "text":"Agriculture"
+  },
+  {
+    "text":"Arable & fruit farming"
+  },
+  {
+    "text":"Agricultural pests & diseases"
+  },
+  {
+    "text":"Crop physiology"
+  },
+  {
+    "text":"Crop nutrition"
+  },
+  {
+    "text":"Crop protection"
+  },
+  {
+    "text":"Crop production"
+  },
+  {
+    "text":"Glasshouse culture"
+  },
+  {
+    "text":"Amenity horticulture"
+  },
+  {
+    "text":"Exotic plants & crops"
+  },
+  {
+    "text":"Livestock"
+  },
+  {
+    "text":"Livestock husbandry"
+  },
+  {
+    "text":"Equine studies"
+  },
+  {
+    "text":"Poultry keeping"
+  },
+  {
+    "text":"Game keeping"
+  },
+  {
+    "text":"Exotic livestock"
+  },
+  {
+    "text":"Fish farming"
+  },
+  {
+    "text":"Fish husbandry"
+  },
+  {
+    "text":"Freshwater fish"
+  },
+  {
+    "text":"Saltwater fish"
+  },
+  {
+    "text":"Ornamental fish"
+  },
+  {
+    "text":"Aquaculture"
+  },
+  {
+    "text":"Rural estate management"
+  },
+  {
+    "text":"Farm management"
+  },
+  {
+    "text":"Game keeping management"
+  },
+  {
+    "text":"Water resource management"
+  },
+  {
+    "text":"Land management for recreation"
+  },
+  {
+    "text":"Biological heritage site management"
+  },
+  {
+    "text":"Wilderness management"
+  },
+  {
+    "text":"Environmental conservation"
+  },
+  {
+    "text":"Sustainable agricultural & landscape development"
+  },
+  {
+    "text":"International agriculture"
+  },
+  {
+    "text":"Organic farming"
+  },
+  {
+    "text":"Organic arable & fruit farming"
+  },
+  {
+    "text":"Organic livestock"
+  },
+  {
+    "text":"Organic fish farming"
+  },
+  {
+    "text":"Agricultural technology"
+  },
+  {
+    "text":"Agricultural machinery"
+  },
+  {
+    "text":"Agricultural irrigation & drainage"
+  },
+  {
+    "text":"Agriculture not elsewhere classified"
+  },
+  {
+    "text":"Forestry & arboriculture"
+  },
+  {
+    "text":"Trees & shrubs"
+  },
+  {
+    "text":"Forestry pests & diseases"
+  },
+  {
+    "text":"Tree physiology"
+  },
+  {
+    "text":"Tree nutrition"
+  },
+  {
+    "text":"Tree protection"
+  },
+  {
+    "text":"Tree production"
+  },
+  {
+    "text":"Timber production"
+  },
+  {
+    "text":"Community forestry"
+  },
+  {
+    "text":"International forestry"
+  },
+  {
+    "text":"Organic forestry"
+  },
+  {
+    "text":"Forestry technology"
+  },
+  {
+    "text":"Forestry irrigation & drainage"
+  },
+  {
+    "text":"Forestry not elsewhere classified"
+  },
+  {
+    "text":"Food & beverage studies"
+  },
+  {
+    "text":"Food science"
+  },
+  {
+    "text":"Meat science"
+  },
+  {
+    "text":"Cereal science"
+  },
+  {
+    "text":"Vegetable science"
+  },
+  {
+    "text":"Fruit science"
+  },
+  {
+    "text":"Food hygiene"
+  },
+  {
+    "text":"Food & beverage production"
+  },
+  {
+    "text":"Food & beverage manufacture"
+  },
+  {
+    "text":"Food & beverage processing"
+  },
+  {
+    "text":"Food & beverage technology"
+  },
+  {
+    "text":"Industrial baking"
+  },
+  {
+    "text":"Industrial brewing"
+  },
+  {
+    "text":"Food & beverages for the consumer"
+  },
+  {
+    "text":"Food & beverage packaging"
+  },
+  {
+    "text":"Food & beverage delivery"
+  },
+  {
+    "text":"Food & beverage studies not elsewhere classified"
+  },
+  {
+    "text":"Agricultural sciences"
+  },
+  {
+    "text":"Agricultural biology"
+  },
+  {
+    "text":"Agricultural microbiology"
+  },
+  {
+    "text":"Agricultural chemistry"
+  },
+  {
+    "text":"Agricultural biochemistry"
+  },
+  {
+    "text":"Agricultural botany"
+  },
+  {
+    "text":"Agricultural zoology"
+  },
+  {
+    "text":"Soil as an agricultural medium"
+  },
+  {
+    "text":"Agricultural sciences not elsewhere classified"
+  },
+  {
+    "text":"Others in veterinary sciences, agriculture & related subjects"
+  },
+  {
+    "text":"Veterinary sciences, agriculture & related subjects not elsewhere classified"
+  },
+  {
+    "text":"Chemistry"
+  },
+  {
+    "text":"Applied chemistry"
+  },
+  {
+    "text":"Industrial chemistry"
+  },
+  {
+    "text":"Colour chemistry"
+  },
+  {
+    "text":"Inorganic chemistry"
+  },
+  {
+    "text":"Structural chemistry"
+  },
+  {
+    "text":"Crystallography"
+  },
+  {
+    "text":"Environmental chemistry"
+  },
+  {
+    "text":"Marine chemistry"
+  },
+  {
+    "text":"Medicinal chemistry"
+  },
+  {
+    "text":"Pharmaceutical chemistry"
+  },
+  {
+    "text":"Organic chemistry"
+  },
+  {
+    "text":"Organometallic chemistry"
+  },
+  {
+    "text":"Polymer chemistry"
+  },
+  {
+    "text":"Bio-organic chemistry"
+  },
+  {
+    "text":"Petrochemical chemistry"
+  },
+  {
+    "text":"Biomolecular chemistry"
+  },
+  {
+    "text":"Physical chemistry"
+  },
+  {
+    "text":"Analytical chemistry"
+  },
+  {
+    "text":"Chemistry not elsewhere classified"
+  },
+  {
+    "text":"Materials science"
+  },
+  {
+    "text":"Materials science not elsewhere classified"
+  },
+  {
+    "text":"Physics"
+  },
+  {
+    "text":"Applied physics"
+  },
+  {
+    "text":"Engineering physics"
+  },
+  {
+    "text":"Chemical physics"
+  },
+  {
+    "text":"Solid-state physics"
+  },
+  {
+    "text":"Environmental physics"
+  },
+  {
+    "text":"Atmospheric physics"
+  },
+  {
+    "text":"Marine physics"
+  },
+  {
+    "text":"Mathematical & theoretical physics"
+  },
+  {
+    "text":"Electromagnetism"
+  },
+  {
+    "text":"Quantum mechanics"
+  },
+  {
+    "text":"Computational physics"
+  },
+  {
+    "text":"Medical physics"
+  },
+  {
+    "text":"Radiation physics"
+  },
+  {
+    "text":"Optical physics"
+  },
+  {
+    "text":"Laser physics"
+  },
+  {
+    "text":"Nuclear & particle physics"
+  },
+  {
+    "text":"Acoustics"
+  },
+  {
+    "text":"Physics not elsewhere classified"
+  },
+  {
+    "text":"Forensic & archaeological sciences"
+  },
+  {
+    "text":"Forensic science"
+  },
+  {
+    "text":"Archaeological science"
+  },
+  {
+    "text":"Forensic & archaeological sciences not elsewhere classified"
+  },
+  {
+    "text":"Astronomy"
+  },
+  {
+    "text":"Astrophysics"
+  },
+  {
+    "text":"Space & planetary sciences"
+  },
+  {
+    "text":"Space science"
+  },
+  {
+    "text":"Planetary science"
+  },
+  {
+    "text":"Solar & solar terrestrial physics"
+  },
+  {
+    "text":"Astronomy observation"
+  },
+  {
+    "text":"Astronomy theory"
+  },
+  {
+    "text":"Astronomy not elsewhere classified"
+  },
+  {
+    "text":"Geology"
+  },
+  {
+    "text":"Applied geology"
+  },
+  {
+    "text":"Industrial geology"
+  },
+  {
+    "text":"Engineering geology"
+  },
+  {
+    "text":"Mining geology"
+  },
+  {
+    "text":"Exploration geology"
+  },
+  {
+    "text":"Geotechnology"
+  },
+  {
+    "text":"Marine geotechnology"
+  },
+  {
+    "text":"Earth science"
+  },
+  {
+    "text":"Palaeontology"
+  },
+  {
+    "text":"Geoscience"
+  },
+  {
+    "text":"Quaternary studies"
+  },
+  {
+    "text":"Hydrogeology"
+  },
+  {
+    "text":"Mantle & core processes"
+  },
+  {
+    "text":"Land-atmosphere interactions"
+  },
+  {
+    "text":"Geological oceanography"
+  },
+  {
+    "text":"Geophysics"
+  },
+  {
+    "text":"Exploration geophysics"
+  },
+  {
+    "text":"Geochemistry"
+  },
+  {
+    "text":"Geohazards"
+  },
+  {
+    "text":"Seismology & tectonics"
+  },
+  {
+    "text":"Vulcanology"
+  },
+  {
+    "text":"Geology not elsewhere classified"
+  },
+  {
+    "text":"Science of aquatic & terrestrial environments"
+  },
+  {
+    "text":"Marine sciences"
+  },
+  {
+    "text":"Hydrography"
+  },
+  {
+    "text":"Ocean sciences"
+  },
+  {
+    "text":"Ocean circulation"
+  },
+  {
+    "text":"Oceanographic survey & monitoring"
+  },
+  {
+    "text":"Land-ocean interaction"
+  },
+  {
+    "text":"Atmosphere-ocean interactions"
+  },
+  {
+    "text":"Environmental sciences"
+  },
+  {
+    "text":"Applied environmental sciences"
+  },
+  {
+    "text":"Hydrology"
+  },
+  {
+    "text":"Pollution control"
+  },
+  {
+    "text":"Biogeochemical cycles"
+  },
+  {
+    "text":"Environmental informatics"
+  },
+  {
+    "text":"Environmental physiology"
+  },
+  {
+    "text":"Climatology"
+  },
+  {
+    "text":"Meteorology"
+  },
+  {
+    "text":"Large-scale atmospheric dynamics & transport"
+  },
+  {
+    "text":"Boundary-layer meteorology"
+  },
+  {
+    "text":"Climate & climate change"
+  },
+  {
+    "text":"Radiative processes & effects"
+  },
+  {
+    "text":"Soil science"
+  },
+  {
+    "text":"Glaciology & cryospheric systems"
+  },
+  {
+    "text":"Science of aquatic & terrestrial environments not elsewhere classified"
+  },
+  {
+    "text":"Physical geographical sciences"
+  },
+  {
+    "text":"Environmental geography"
+  },
+  {
+    "text":"Biogeography"
+  },
+  {
+    "text":"Physical geography"
+  },
+  {
+    "text":"Maritime geography"
+  },
+  {
+    "text":"Geomorphology"
+  },
+  {
+    "text":"Topography"
+  },
+  {
+    "text":"Cartography"
+  },
+  {
+    "text":"Remote sensing"
+  },
+  {
+    "text":"Geographical information systems"
+  },
+  {
+    "text":"Physical geographical sciences not elsewhere classified"
+  },
+  {
+    "text":"Others in physical sciences"
+  },
+  {
+    "text":"Physical sciences not elsewhere classified"
+  },
+  {
+    "text":"Mathematics"
+  },
+  {
+    "text":"Pure mathematics"
+  },
+  {
+    "text":"Applied mathematics"
+  },
+  {
+    "text":"Mechanics (mathematical)"
+  },
+  {
+    "text":"Mathematical methods"
+  },
+  {
+    "text":"Numerical analysis"
+  },
+  {
+    "text":"Mathematical modelling"
+  },
+  {
+    "text":"Engineering/industrial mathematics"
+  },
+  {
+    "text":"Computational mathematics"
+  },
+  {
+    "text":"Mathematics not elsewhere classified"
+  },
+  {
+    "text":"Operational research"
+  },
+  {
+    "text":"Operational research not elsewhere classified"
+  },
+  {
+    "text":"Statistics"
+  },
+  {
+    "text":"Applied statistics"
+  },
+  {
+    "text":"Medical statistics"
+  },
+  {
+    "text":"Probability"
+  },
+  {
+    "text":"Stochastic processes"
+  },
+  {
+    "text":"Statistical modelling"
+  },
+  {
+    "text":"Mathematical statistics"
+  },
+  {
+    "text":"Statistics not elsewhere classified"
+  },
+  {
+    "text":"Others in mathematical sciences"
+  },
+  {
+    "text":"General engineering"
+  },
+  {
+    "text":"Integrated engineering"
+  },
+  {
+    "text":"Safety engineering"
+  },
+  {
+    "text":"Fire safety engineering"
+  },
+  {
+    "text":"Water quality control"
+  },
+  {
+    "text":"Public health engineering"
+  },
+  {
+    "text":"Computer-aided engineering"
+  },
+  {
+    "text":"Automated engineering design"
+  },
+  {
+    "text":"Mechanics"
+  },
+  {
+    "text":"Fluid mechanics"
+  },
+  {
+    "text":"Solid mechanics"
+  },
+  {
+    "text":"Structural mechanics"
+  },
+  {
+    "text":"Engineering design"
+  },
+  {
+    "text":"Bioengineering, biomedical engineering & clinical engineering"
+  },
+  {
+    "text":"Biomaterials"
+  },
+  {
+    "text":"Biomechanics (including fluid & solid mechanics)"
+  },
+  {
+    "text":"Bioelectronics & bioelectricity"
+  },
+  {
+    "text":"Rehabilitation engineering"
+  },
+  {
+    "text":"Tissue engineering & regenerative medicine"
+  },
+  {
+    "text":"Imaging"
+  },
+  {
+    "text":"Biosensors"
+  },
+  {
+    "text":"Medical devices & instrumentation"
+  },
+  {
+    "text":"Neural engineering"
+  },
+  {
+    "text":"General engineering not elsewhere classified"
+  },
+  {
+    "text":"Civil engineering"
+  },
+  {
+    "text":"Structural engineering"
+  },
+  {
+    "text":"Environmental engineering"
+  },
+  {
+    "text":"Energy resources"
+  },
+  {
+    "text":"Coastal decay"
+  },
+  {
+    "text":"Environmental impact assessment"
+  },
+  {
+    "text":"Transport engineering"
+  },
+  {
+    "text":"Permanent way engineering"
+  },
+  {
+    "text":"Pavement engineering"
+  },
+  {
+    "text":"Surveying science"
+  },
+  {
+    "text":"General practice surveying"
+  },
+  {
+    "text":"Engineering surveying"
+  },
+  {
+    "text":"Geotechnical engineering"
+  },
+  {
+    "text":"Civil engineering not elsewhere classified"
+  },
+  {
+    "text":"Mechanical engineering"
+  },
+  {
+    "text":"Dynamics"
+  },
+  {
+    "text":"Thermodynamics"
+  },
+  {
+    "text":"Mechanisms & machines"
+  },
+  {
+    "text":"Turbine technology"
+  },
+  {
+    "text":"Automotive engineering"
+  },
+  {
+    "text":"Road vehicle engineering"
+  },
+  {
+    "text":"Rail vehicle engineering"
+  },
+  {
+    "text":"Ship propulsion engineering"
+  },
+  {
+    "text":"Acoustics & vibration"
+  },
+  {
+    "text":"Acoustics"
+  },
+  {
+    "text":"Vibration"
+  },
+  {
+    "text":"Offshore engineering"
+  },
+  {
+    "text":"Electromechanical engineering"
+  },
+  {
+    "text":"Mechanical engineering not elsewhere classified"
+  },
+  {
+    "text":"Aerospace engineering"
+  },
+  {
+    "text":"Aeronautical engineering"
+  },
+  {
+    "text":"Air passenger transport engineering"
+  },
+  {
+    "text":"Air freight transport engineering"
+  },
+  {
+    "text":"Air combat engineering"
+  },
+  {
+    "text":"Astronautical engineering"
+  },
+  {
+    "text":"Avionics"
+  },
+  {
+    "text":"Aerodynamics"
+  },
+  {
+    "text":"Flight mechanics"
+  },
+  {
+    "text":"Propulsion systems"
+  },
+  {
+    "text":"Aviation studies"
+  },
+  {
+    "text":"Aerospace engineering not elsewhere classified"
+  },
+  {
+    "text":"Naval architecture"
+  },
+  {
+    "text":"Shipbuilding"
+  },
+  {
+    "text":"Surface passenger ship building"
+  },
+  {
+    "text":"Surface freight ship building"
+  },
+  {
+    "text":"Surface combat ship building"
+  },
+  {
+    "text":"Submarine building"
+  },
+  {
+    "text":"Ship design"
+  },
+  {
+    "text":"Surface passenger ship design"
+  },
+  {
+    "text":"Surface freight ship design"
+  },
+  {
+    "text":"Surface combat ship design"
+  },
+  {
+    "text":"Submarine design"
+  },
+  {
+    "text":"Naval architecture not elsewhere classified"
+  },
+  {
+    "text":"Electronic & electrical engineering"
+  },
+  {
+    "text":"Electronic engineering"
+  },
+  {
+    "text":"Microelectronic engineering"
+  },
+  {
+    "text":"Integrated circuit design"
+  },
+  {
+    "text":"Electrical engineering"
+  },
+  {
+    "text":"Electrical power"
+  },
+  {
+    "text":"Electrical power generation"
+  },
+  {
+    "text":"Electrical power distribution"
+  },
+  {
+    "text":"Communications engineering"
+  },
+  {
+    "text":"Telecommunications engineering"
+  },
+  {
+    "text":"Broadcast engineering"
+  },
+  {
+    "text":"Satellite engineering"
+  },
+  {
+    "text":"Microwave engineering"
+  },
+  {
+    "text":"Systems engineering"
+  },
+  {
+    "text":"Digital circuit engineering"
+  },
+  {
+    "text":"Analogue circuit engineering"
+  },
+  {
+    "text":"Control systems"
+  },
+  {
+    "text":"Instrumentation control"
+  },
+  {
+    "text":"Control by light systems"
+  },
+  {
+    "text":"Robotics & cybernetics"
+  },
+  {
+    "text":"Robotics"
+  },
+  {
+    "text":"Cybernetics"
+  },
+  {
+    "text":"Virtual reality engineering"
+  },
+  {
+    "text":"Optoelectronic engineering"
+  },
+  {
+    "text":"Electronic & electrical engineering not elsewhere classified"
+  },
+  {
+    "text":"Production & manufacturing engineering"
+  },
+  {
+    "text":"Manufacturing systems engineering"
+  },
+  {
+    "text":"Manufacturing systems design"
+  },
+  {
+    "text":"Manufacturing installation systems"
+  },
+  {
+    "text":"Production processes"
+  },
+  {
+    "text":"Manufacturing systems maintenance"
+  },
+  {
+    "text":"Quality assurance engineering"
+  },
+  {
+    "text":"Mechatronics"
+  },
+  {
+    "text":"Production & manufacturing engineering not elsewhere classified"
+  },
+  {
+    "text":"Chemical, process & energy engineering"
+  },
+  {
+    "text":"Chemical engineering"
+  },
+  {
+    "text":"Biochemical engineering"
+  },
+  {
+    "text":"Pharmaceutical engineering"
+  },
+  {
+    "text":"Atomic engineering"
+  },
+  {
+    "text":"Nuclear engineering"
+  },
+  {
+    "text":"Chemical process engineering"
+  },
+  {
+    "text":"Bioprocess engineering"
+  },
+  {
+    "text":"Gas engineering"
+  },
+  {
+    "text":"Petroleum engineering"
+  },
+  {
+    "text":"Chemical, process & energy engineering not elsewhere classified"
+  },
+  {
+    "text":"Others in engineering"
+  },
+  {
+    "text":"Engineering not elsewhere classified"
+  },
+  {
+    "text":"Computer science"
+  },
+  {
+    "text":"Computer architectures & operating systems"
+  },
+  {
+    "text":"Computer architectures"
+  },
+  {
+    "text":"Operating systems"
+  },
+  {
+    "text":"Displays & imaging"
+  },
+  {
+    "text":"High end computing"
+  },
+  {
+    "text":"Parallel computing"
+  },
+  {
+    "text":"Networks & communications"
+  },
+  {
+    "text":"Computational science foundations"
+  },
+  {
+    "text":"Human-computer interaction"
+  },
+  {
+    "text":"Multimedia computing science"
+  },
+  {
+    "text":"Internet"
+  },
+  {
+    "text":"e-business"
+  },
+  {
+    "text":"Computer science not elsewhere classified"
+  },
+  {
+    "text":"Information systems"
+  },
+  {
+    "text":"Information modelling"
+  },
+  {
+    "text":"Systems design methodologies"
+  },
+  {
+    "text":"Systems analysis & design"
+  },
+  {
+    "text":"Databases"
+  },
+  {
+    "text":"Systems auditing"
+  },
+  {
+    "text":"Data management"
+  },
+  {
+    "text":"Intelligent & expert systems"
+  },
+  {
+    "text":"Systems analysis & design not elsewhere classified"
+  },
+  {
+    "text":"Software engineering"
+  },
+  {
+    "text":"Software design"
+  },
+  {
+    "text":"Programming"
+  },
+  {
+    "text":"Procedural programming"
+  },
+  {
+    "text":"Object-oriented programming"
+  },
+  {
+    "text":"Declarative programming"
+  },
+  {
+    "text":"Software engineering not elsewhere classified"
+  },
+  {
+    "text":"Artificial intelligence"
+  },
+  {
+    "text":"Speech & natural language processing"
+  },
+  {
+    "text":"Knowledge representation"
+  },
+  {
+    "text":"Neural computing"
+  },
+  {
+    "text":"Computer vision"
+  },
+  {
+    "text":"Cognitive modelling"
+  },
+  {
+    "text":"Machine learning"
+  },
+  {
+    "text":"Automated reasoning"
+  },
+  {
+    "text":"Artificial intelligence not elsewhere classified"
+  },
+  {
+    "text":"Health informatics"
+  },
+  {
+    "text":"Health technologies"
+  },
+  {
+    "text":"Bioinformatics"
+  },
+  {
+    "text":"Tele healthcare"
+  },
+  {
+    "text":"Health informatics not elsewhere classified"
+  },
+  {
+    "text":"Games"
+  },
+  {
+    "text":"Computer games programming"
+  },
+  {
+    "text":"Computer games design"
+  },
+  {
+    "text":"Computer games graphics"
+  },
+  {
+    "text":"Computer generated visual & audio effects"
+  },
+  {
+    "text":"Computer generated imagery"
+  },
+  {
+    "text":"Others in computer sciences"
+  },
+  {
+    "text":"Computer sciences not elsewhere classified"
+  },
+  {
+    "text":"Minerals technology"
+  },
+  {
+    "text":"Mining"
+  },
+  {
+    "text":"Quarrying"
+  },
+  {
+    "text":"Rock mechanics"
+  },
+  {
+    "text":"Minerals processing"
+  },
+  {
+    "text":"Minerals surveying"
+  },
+  {
+    "text":"Petrochemical technology"
+  },
+  {
+    "text":"Minerals technology not elsewhere classified"
+  },
+  {
+    "text":"Metallurgy"
+  },
+  {
+    "text":"Applied metallurgy"
+  },
+  {
+    "text":"Metallic fabrication"
+  },
+  {
+    "text":"Pattern making"
+  },
+  {
+    "text":"Corrosion technology"
+  },
+  {
+    "text":"Metallurgy not elsewhere classified"
+  },
+  {
+    "text":"Ceramics & glass"
+  },
+  {
+    "text":"Ceramics"
+  },
+  {
+    "text":"Glass technology"
+  },
+  {
+    "text":"Ceramics & glass not elsewhere classified"
+  },
+  {
+    "text":"Polymers & textiles"
+  },
+  {
+    "text":"Polymers technology"
+  },
+  {
+    "text":"Plastics"
+  },
+  {
+    "text":"Textiles technology"
+  },
+  {
+    "text":"Textile chemistry"
+  },
+  {
+    "text":"Dying & colouring of textiles"
+  },
+  {
+    "text":"Leather technology"
+  },
+  {
+    "text":"Tanning"
+  },
+  {
+    "text":"Clothing production"
+  },
+  {
+    "text":"Machine knitting"
+  },
+  {
+    "text":"Commercial tailoring"
+  },
+  {
+    "text":"Pattern cutting"
+  },
+  {
+    "text":"Millinery"
+  },
+  {
+    "text":"Footwear production"
+  },
+  {
+    "text":"Polymers & textiles not elsewhere classified"
+  },
+  {
+    "text":"Materials technology not otherwise specified"
+  },
+  {
+    "text":"Materials technology"
+  },
+  {
+    "text":"Engineering materials"
+  },
+  {
+    "text":"Paper technology"
+  },
+  {
+    "text":"Furniture technology"
+  },
+  {
+    "text":"Printing"
+  },
+  {
+    "text":"Offset lithography"
+  },
+  {
+    "text":"Photo-lithography"
+  },
+  {
+    "text":"Reprographic techniques"
+  },
+  {
+    "text":"Screen process printing"
+  },
+  {
+    "text":"Gemmology"
+  },
+  {
+    "text":"Materials technology not elsewhere classified"
+  },
+  {
+    "text":"Maritime technology"
+  },
+  {
+    "text":"Marine technology"
+  },
+  {
+    "text":"Marine navigation"
+  },
+  {
+    "text":"Marine radar"
+  },
+  {
+    "text":"Marine radio"
+  },
+  {
+    "text":"Marine plumbing"
+  },
+  {
+    "text":"Maritime technology not elsewhere classified"
+  },
+  {
+    "text":"Biotechnology"
+  },
+  {
+    "text":"Plant biotechnology (crops, trees, shrubs etc.)"
+  },
+  {
+    "text":"Animal biotechnology"
+  },
+  {
+    "text":"Environmental biotechnology"
+  },
+  {
+    "text":"Industrial biotechnology"
+  },
+  {
+    "text":"Medical biotechnology"
+  },
+  {
+    "text":"Biotechnology not elsewhere classified"
+  },
+  {
+    "text":"Others in technology"
+  },
+  {
+    "text":"Energy technologies"
+  },
+  {
+    "text":"Ergonomics"
+  },
+  {
+    "text":"Audio technology"
+  },
+  {
+    "text":"Music recording"
+  },
+  {
+    "text":"Machinery maintenance"
+  },
+  {
+    "text":"Office machinery maintenance"
+  },
+  {
+    "text":"Industrial machinery maintenance"
+  },
+  {
+    "text":"Musical instrument technology"
+  },
+  {
+    "text":"Transport logistics"
+  },
+  {
+    "text":"Emergency & disaster technologies"
+  },
+  {
+    "text":"Technologies not elsewhere classified"
+  },
+  {
+    "text":"Architecture"
+  },
+  {
+    "text":"Architectural design theory"
+  },
+  {
+    "text":"Interior architecture"
+  },
+  {
+    "text":"Architectural technology"
+  },
+  {
+    "text":"Architecture not elsewhere classified"
+  },
+  {
+    "text":"Building"
+  },
+  {
+    "text":"Building technology"
+  },
+  {
+    "text":"Construction management"
+  },
+  {
+    "text":"Building surveying"
+  },
+  {
+    "text":"Quantity surveying"
+  },
+  {
+    "text":"Conservation of buildings"
+  },
+  {
+    "text":"Property development"
+  },
+  {
+    "text":"Building not elsewhere classified"
+  },
+  {
+    "text":"Landscape & garden design"
+  },
+  {
+    "text":"Landscape architecture"
+  },
+  {
+    "text":"Landscape studies"
+  },
+  {
+    "text":"Landscape design"
+  },
+  {
+    "text":"Garden design"
+  },
+  {
+    "text":"Garden horticulture"
+  },
+  {
+    "text":"Landscape & garden design not elsewhere classified"
+  },
+  {
+    "text":"Planning (urban, rural & regional)"
+  },
+  {
+    "text":"Regional planning"
+  },
+  {
+    "text":"Urban & rural planning"
+  },
+  {
+    "text":"Urban planning"
+  },
+  {
+    "text":"Rural planning"
+  },
+  {
+    "text":"Planning studies"
+  },
+  {
+    "text":"Urban studies"
+  },
+  {
+    "text":"Housing"
+  },
+  {
+    "text":"Transport planning"
+  },
+  {
+    "text":"Planning (urban, rural & regional) not elsewhere classified"
+  },
+  {
+    "text":"Others in architecture, building & planning"
+  },
+  {
+    "text":"Architecture, building & planning not elsewhere classified"
+  },
+  {
+    "text":"Economics"
+  },
+  {
+    "text":"Applied economics"
+  },
+  {
+    "text":"Financial economics"
+  },
+  {
+    "text":"Agricultural economics"
+  },
+  {
+    "text":"Economic policy"
+  },
+  {
+    "text":"Microeconomics"
+  },
+  {
+    "text":"Macroeconomics"
+  },
+  {
+    "text":"Econometrics"
+  },
+  {
+    "text":"Political economics"
+  },
+  {
+    "text":"International economics"
+  },
+  {
+    "text":"Economic systems"
+  },
+  {
+    "text":"Capitalism"
+  },
+  {
+    "text":"Monetarism"
+  },
+  {
+    "text":"Keynesianism"
+  },
+  {
+    "text":"Collectivism"
+  },
+  {
+    "text":"Economics not elsewhere classified"
+  },
+  {
+    "text":"Politics"
+  },
+  {
+    "text":"Political theories"
+  },
+  {
+    "text":"Liberalism"
+  },
+  {
+    "text":"Conservatism"
+  },
+  {
+    "text":"Socialism"
+  },
+  {
+    "text":"Nationalism"
+  },
+  {
+    "text":"Fascism"
+  },
+  {
+    "text":"Feminism"
+  },
+  {
+    "text":"Environmentalism"
+  },
+  {
+    "text":"Anarchism"
+  },
+  {
+    "text":"Political systems"
+  },
+  {
+    "text":"Autocracy"
+  },
+  {
+    "text":"Democracy"
+  },
+  {
+    "text":"Plutocracy"
+  },
+  {
+    "text":"Oligarchy"
+  },
+  {
+    "text":"UK government/parliamentary studies"
+  },
+  {
+    "text":"Public administration"
+  },
+  {
+    "text":"UK constitutional studies"
+  },
+  {
+    "text":"International politics"
+  },
+  {
+    "text":"European Union politics"
+  },
+  {
+    "text":"Commonwealth politics"
+  },
+  {
+    "text":"Politics of a specific country/region"
+  },
+  {
+    "text":"International constitutional studies"
+  },
+  {
+    "text":"International relations"
+  },
+  {
+    "text":"Strategic studies"
+  },
+  {
+    "text":"War & peace studies"
+  },
+  {
+    "text":"International criminology"
+  },
+  {
+    "text":"Comparative politics"
+  },
+  {
+    "text":"Politics not elsewhere classified"
+  },
+  {
+    "text":"Sociology"
+  },
+  {
+    "text":"Applied sociology"
+  },
+  {
+    "text":"Applied criminology"
+  },
+  {
+    "text":"Victimology"
+  },
+  {
+    "text":"Gender studies"
+  },
+  {
+    "text":"Women's studies"
+  },
+  {
+    "text":"Men's studies"
+  },
+  {
+    "text":"Ethnic studies"
+  },
+  {
+    "text":"Disability in society"
+  },
+  {
+    "text":"Religion in society"
+  },
+  {
+    "text":"Socio-economics"
+  },
+  {
+    "text":"Social theory"
+  },
+  {
+    "text":"Social hierarchy"
+  },
+  {
+    "text":"Political sociology"
+  },
+  {
+    "text":"Sociology not elsewhere classified"
+  },
+  {
+    "text":"Sociology of science & technology"
+  },
+  {
+    "text":"Social policy"
+  },
+  {
+    "text":"UK social policy"
+  },
+  {
+    "text":"International social policy"
+  },
+  {
+    "text":"Public policy"
+  },
+  {
+    "text":"Health policy"
+  },
+  {
+    "text":"Welfare policy"
+  },
+  {
+    "text":"Education policy"
+  },
+  {
+    "text":"Transport policy"
+  },
+  {
+    "text":"Security policy"
+  },
+  {
+    "text":"Emergency services policy"
+  },
+  {
+    "text":"Criminal justice policy"
+  },
+  {
+    "text":"Social policy not elsewhere classified"
+  },
+  {
+    "text":"Social work"
+  },
+  {
+    "text":"Health & welfare"
+  },
+  {
+    "text":"Child care"
+  },
+  {
+    "text":"Youth work"
+  },
+  {
+    "text":"Community work"
+  },
+  {
+    "text":"Community justice"
+  },
+  {
+    "text":"Careers guidance"
+  },
+  {
+    "text":"Probation/after-care"
+  },
+  {
+    "text":"Social work not elsewhere classified"
+  },
+  {
+    "text":"Anthropology"
+  },
+  {
+    "text":"Social & cultural anthropology"
+  },
+  {
+    "text":"Criminological theory"
+  },
+  {
+    "text":"Physical & biological anthropology"
+  },
+  {
+    "text":"Anthropology not elsewhere classified"
+  },
+  {
+    "text":"Human & social geography"
+  },
+  {
+    "text":"Human & social geography by area"
+  },
+  {
+    "text":"Human & social geography of Europe"
+  },
+  {
+    "text":"Human & social geography of Asia"
+  },
+  {
+    "text":"Human & social geography of Africa"
+  },
+  {
+    "text":"Human & social geography of Australasia"
+  },
+  {
+    "text":"Human & social geography of the Americas"
+  },
+  {
+    "text":"Human & social geography of the Arctic/Antarctic"
+  },
+  {
+    "text":"Human & social geography by topic"
+  },
+  {
+    "text":"Economic geography"
+  },
+  {
+    "text":"Urban geography"
+  },
+  {
+    "text":"Political geography"
+  },
+  {
+    "text":"Transport geography"
+  },
+  {
+    "text":"Historical geography"
+  },
+  {
+    "text":"Cultural geography"
+  },
+  {
+    "text":"Agricultural geography"
+  },
+  {
+    "text":"Human Demography"
+  },
+  {
+    "text":"Human & social geography not elsewhere classified"
+  },
+  {
+    "text":"Development studies"
+  },
+  {
+    "text":"Others in social studies"
+  },
+  {
+    "text":"Social studies not elsewhere classified"
+  },
+  {
+    "text":"Law by area"
+  },
+  {
+    "text":"UK legal systems"
+  },
+  {
+    "text":"English law"
+  },
+  {
+    "text":"Welsh law"
+  },
+  {
+    "text":"Northern Irish law"
+  },
+  {
+    "text":"Scottish law"
+  },
+  {
+    "text":"European Union law"
+  },
+  {
+    "text":"Public international law"
+  },
+  {
+    "text":"Comparative law"
+  },
+  {
+    "text":"Law by area not elsewhere classified"
+  },
+  {
+    "text":"Law by topic"
+  },
+  {
+    "text":"Public law"
+  },
+  {
+    "text":"Criminal law"
+  },
+  {
+    "text":"Private law"
+  },
+  {
+    "text":"Business & commercial law"
+  },
+  {
+    "text":"Contract law"
+  },
+  {
+    "text":"Property law"
+  },
+  {
+    "text":"Torts"
+  },
+  {
+    "text":"Jurisprudence"
+  },
+  {
+    "text":"Legal practice"
+  },
+  {
+    "text":"Medical law"
+  },
+  {
+    "text":"Sociology of law"
+  },
+  {
+    "text":"Law by topic not elsewhere classified"
+  },
+  {
+    "text":"Others in law"
+  },
+  {
+    "text":"Law not elsewhere classified"
+  },
+  {
+    "text":"Business studies"
+  },
+  {
+    "text":"European business studies"
+  },
+  {
+    "text":"International business studies"
+  },
+  {
+    "text":"Business studies not elsewhere classified"
+  },
+  {
+    "text":"Management studies"
+  },
+  {
+    "text":"Management techniques"
+  },
+  {
+    "text":"Strategic management"
+  },
+  {
+    "text":"Creative management"
+  },
+  {
+    "text":"Project management"
+  },
+  {
+    "text":"Change management"
+  },
+  {
+    "text":"Organisational development"
+  },
+  {
+    "text":"Institutional management"
+  },
+  {
+    "text":"Domestic management"
+  },
+  {
+    "text":"Management & organisation of education"
+  },
+  {
+    "text":"Criminal justice management"
+  },
+  {
+    "text":"Land & property management"
+  },
+  {
+    "text":"Land management"
+  },
+  {
+    "text":"Property management"
+  },
+  {
+    "text":"Property valuation & auctioneering"
+  },
+  {
+    "text":"Retail management"
+  },
+  {
+    "text":"Emergency & disaster management"
+  },
+  {
+    "text":"Emergency services management"
+  },
+  {
+    "text":"Disaster management"
+  },
+  {
+    "text":"Management studies not elsewhere classified"
+  },
+  {
+    "text":"Finance"
+  },
+  {
+    "text":"Banking"
+  },
+  {
+    "text":"Investment & insurance"
+  },
+  {
+    "text":"Investment"
+  },
+  {
+    "text":"Insurance"
+  },
+  {
+    "text":"Actuarial science"
+  },
+  {
+    "text":"Taxation"
+  },
+  {
+    "text":"Financial management"
+  },
+  {
+    "text":"Financial risk"
+  },
+  {
+    "text":"Finance not elsewhere classified"
+  },
+  {
+    "text":"Accounting"
+  },
+  {
+    "text":"Accountancy"
+  },
+  {
+    "text":"Cost & management accountancy"
+  },
+  {
+    "text":"Public accountancy"
+  },
+  {
+    "text":"Book keeping"
+  },
+  {
+    "text":"Accounting theory"
+  },
+  {
+    "text":"Auditing of accounts"
+  },
+  {
+    "text":"Financial reporting"
+  },
+  {
+    "text":"Accounting not elsewhere classified"
+  },
+  {
+    "text":"Marketing"
+  },
+  {
+    "text":"Market research"
+  },
+  {
+    "text":"Sales management"
+  },
+  {
+    "text":"Distribution"
+  },
+  {
+    "text":"International marketing"
+  },
+  {
+    "text":"Promotion & advertising"
+  },
+  {
+    "text":"Advertising"
+  },
+  {
+    "text":"Corporate image"
+  },
+  {
+    "text":"Sponsorship"
+  },
+  {
+    "text":"Marketing not elsewhere classified"
+  },
+  {
+    "text":"Human resource management"
+  },
+  {
+    "text":"Industrial relations"
+  },
+  {
+    "text":"Staff development"
+  },
+  {
+    "text":"Training methods"
+  },
+  {
+    "text":"Recruitment methods"
+  },
+  {
+    "text":"Health & safety issues"
+  },
+  {
+    "text":"Human resources management not elsewhere classified"
+  },
+  {
+    "text":"Office skills"
+  },
+  {
+    "text":"Office administration"
+  },
+  {
+    "text":"Secretarial & typing skills"
+  },
+  {
+    "text":"Audio typing"
+  },
+  {
+    "text":"Shorthand & shorthand transcription"
+  },
+  {
+    "text":"Office skills not elsewhere classified"
+  },
+  {
+    "text":"Hospitality, leisure, sport, tourism & transport"
+  },
+  {
+    "text":"Travel management"
+  },
+  {
+    "text":"Event management"
+  },
+  {
+    "text":"Tourism"
+  },
+  {
+    "text":"Tourism studies"
+  },
+  {
+    "text":"Tourism management"
+  },
+  {
+    "text":"Transport studies"
+  },
+  {
+    "text":"Land travel"
+  },
+  {
+    "text":"Sea travel"
+  },
+  {
+    "text":"Air travel"
+  },
+  {
+    "text":"Hospitality"
+  },
+  {
+    "text":"Hospitality studies"
+  },
+  {
+    "text":"Hospitality management"
+  },
+  {
+    "text":"Recreation & leisure studies"
+  },
+  {
+    "text":"Spa management"
+  },
+  {
+    "text":"Salon management"
+  },
+  {
+    "text":"Sport management"
+  },
+  {
+    "text":"Hospitality, leisure, sport, tourism & transport not elsewhere classified"
+  },
+  {
+    "text":"Others in business & administrative studies"
+  },
+  {
+    "text":"Business & administrative studies not elsewhere classified"
+  },
+  {
+    "text":"Information services"
+  },
+  {
+    "text":"Information management"
+  },
+  {
+    "text":"Librarianship"
+  },
+  {
+    "text":"Library studies"
+  },
+  {
+    "text":"Curatorial studies"
+  },
+  {
+    "text":"Museum studies"
+  },
+  {
+    "text":"Archive studies"
+  },
+  {
+    "text":"Information services not elsewhere classified"
+  },
+  {
+    "text":"Publicity studies"
+  },
+  {
+    "text":"Public relations"
+  },
+  {
+    "text":"Publicity studies not elsewhere classified"
+  },
+  {
+    "text":"Media studies"
+  },
+  {
+    "text":"Television studies"
+  },
+  {
+    "text":"Radio studies"
+  },
+  {
+    "text":"Film studies"
+  },
+  {
+    "text":"Electronic media studies"
+  },
+  {
+    "text":"Paper-based media studies"
+  },
+  {
+    "text":"Media production"
+  },
+  {
+    "text":"Television production"
+  },
+  {
+    "text":"Radio production"
+  },
+  {
+    "text":"Film production"
+  },
+  {
+    "text":"Media studies not elsewhere classified"
+  },
+  {
+    "text":"Publishing"
+  },
+  {
+    "text":"Electronic publishing"
+  },
+  {
+    "text":"Publishing on audio/video tape"
+  },
+  {
+    "text":"Publishing on CD-ROM"
+  },
+  {
+    "text":"Publishing via the World Wide Web"
+  },
+  {
+    "text":"Multimedia publishing"
+  },
+  {
+    "text":"Interactive publishing"
+  },
+  {
+    "text":"Publishing not elsewhere classified"
+  },
+  {
+    "text":"Journalism"
+  },
+  {
+    "text":"Factual reporting"
+  },
+  {
+    "text":"Journalism not elsewhere classified"
+  },
+  {
+    "text":"Others in mass communications & documentation"
+  },
+  {
+    "text":"Mass communications & documentation not elsewhere classified"
+  },
+  {
+    "text":"Linguistics"
+  },
+  {
+    "text":"Applied linguistics"
+  },
+  {
+    "text":"Historical linguistics"
+  },
+  {
+    "text":"Phonetics & phonology"
+  },
+  {
+    "text":"Phonetics"
+  },
+  {
+    "text":"Phonology"
+  },
+  {
+    "text":"Sociolinguistics"
+  },
+  {
+    "text":"Psycholinguistics"
+  },
+  {
+    "text":"British Sign Language"
+  },
+  {
+    "text":"Linguistics not elsewhere classified"
+  },
+  {
+    "text":"Comparative literary studies"
+  },
+  {
+    "text":"Literature in translation"
+  },
+  {
+    "text":"Literature in its original language"
+  },
+  {
+    "text":"Comparative literary studies not elsewhere classified"
+  },
+  {
+    "text":"English studies"
+  },
+  {
+    "text":"English language"
+  },
+  {
+    "text":"English literature"
+  },
+  {
+    "text":"English literature by period"
+  },
+  {
+    "text":"English literature by author"
+  },
+  {
+    "text":"English literature by topic"
+  },
+  {
+    "text":"English as a second language"
+  },
+  {
+    "text":"English literature written as a second language"
+  },
+  {
+    "text":"Scots language"
+  },
+  {
+    "text":"Scots literature"
+  },
+  {
+    "text":"Irish language"
+  },
+  {
+    "text":"Irish literature"
+  },
+  {
+    "text":"English studies not elsewhere classified"
+  },
+  {
+    "text":"Ancient language studies"
+  },
+  {
+    "text":"Ancient Egyptian"
+  },
+  {
+    "text":"Coptic"
+  },
+  {
+    "text":"Classical Arabic"
+  },
+  {
+    "text":"Akkadian"
+  },
+  {
+    "text":"Sumerian"
+  },
+  {
+    "text":"Sanskrit"
+  },
+  {
+    "text":"Prakrit"
+  },
+  {
+    "text":"Aramaic"
+  },
+  {
+    "text":"Hebrew"
+  },
+  {
+    "text":"Ancient language studies not elsewhere classified"
+  },
+  {
+    "text":"Celtic studies"
+  },
+  {
+    "text":"Ancient Celtic studies"
+  },
+  {
+    "text":"Modern Celtic studies"
+  },
+  {
+    "text":"Goidelic group of languages"
+  },
+  {
+    "text":"Brythonic group of languages"
+  },
+  {
+    "text":"Scottish Gaelic"
+  },
+  {
+    "text":"Scottish Gaelic literature"
+  },
+  {
+    "text":"Irish Gaelic"
+  },
+  {
+    "text":"Irish Gaelic literature"
+  },
+  {
+    "text":"Manx"
+  },
+  {
+    "text":"Manx literature"
+  },
+  {
+    "text":"Welsh"
+  },
+  {
+    "text":"Welsh literature"
+  },
+  {
+    "text":"Cornish"
+  },
+  {
+    "text":"Cornish literature"
+  },
+  {
+    "text":"Breton"
+  },
+  {
+    "text":"Breton literature"
+  },
+  {
+    "text":"Celtic studies not elsewhere classified"
+  },
+  {
+    "text":"Latin studies"
+  },
+  {
+    "text":"Latin language"
+  },
+  {
+    "text":"Church Latin"
+  },
+  {
+    "text":"Medieval Latin"
+  },
+  {
+    "text":"Latin literature"
+  },
+  {
+    "text":"Latin literature in translation"
+  },
+  {
+    "text":"Latin studies not elsewhere classified"
+  },
+  {
+    "text":"Classical Greek studies"
+  },
+  {
+    "text":"Classical Greek language"
+  },
+  {
+    "text":"Classical Church Greek"
+  },
+  {
+    "text":"Late Greek"
+  },
+  {
+    "text":"Classical Greek literature"
+  },
+  {
+    "text":"Classical Greek literature in translation"
+  },
+  {
+    "text":"Classical Greek studies not elsewhere classified"
+  },
+  {
+    "text":"Classical studies"
+  },
+  {
+    "text":"Classical reception"
+  },
+  {
+    "text":"Classical studies not elsewhere classified"
+  },
+  {
+    "text":"Others in linguistics, classics & related subjects"
+  },
+  {
+    "text":"Translation studies"
+  },
+  {
+    "text":"Translation theory"
+  },
+  {
+    "text":"Linguistics, classics & related subjects not elsewhere classified"
+  },
+  {
+    "text":"French studies"
+  },
+  {
+    "text":"French language"
+  },
+  {
+    "text":"French literature"
+  },
+  {
+    "text":"French society & culture"
+  },
+  {
+    "text":"French studies not elsewhere classified"
+  },
+  {
+    "text":"German studies"
+  },
+  {
+    "text":"German language"
+  },
+  {
+    "text":"German literature"
+  },
+  {
+    "text":"German society & culture"
+  },
+  {
+    "text":"German studies not elsewhere classified"
+  },
+  {
+    "text":"Italian studies"
+  },
+  {
+    "text":"Italian language"
+  },
+  {
+    "text":"Italian literature"
+  },
+  {
+    "text":"Italian society & culture"
+  },
+  {
+    "text":"Italian studies not elsewhere classified"
+  },
+  {
+    "text":"Spanish studies"
+  },
+  {
+    "text":"Spanish language"
+  },
+  {
+    "text":"Spanish languages in other countries"
+  },
+  {
+    "text":"Spanish literature"
+  },
+  {
+    "text":"Spanish society & culture"
+  },
+  {
+    "text":"Spanish studies not elsewhere classified"
+  },
+  {
+    "text":"Portuguese studies"
+  },
+  {
+    "text":"Portuguese language"
+  },
+  {
+    "text":"Portuguese languages in other countries"
+  },
+  {
+    "text":"Portuguese literature"
+  },
+  {
+    "text":"Portuguese society & culture"
+  },
+  {
+    "text":"Portuguese studies not elsewhere classified"
+  },
+  {
+    "text":"Scandinavian studies"
+  },
+  {
+    "text":"Scandinavian languages"
+  },
+  {
+    "text":"Swedish language"
+  },
+  {
+    "text":"Norwegian language"
+  },
+  {
+    "text":"Finnish language"
+  },
+  {
+    "text":"Danish language"
+  },
+  {
+    "text":"Scandinavian literature"
+  },
+  {
+    "text":"Swedish literature"
+  },
+  {
+    "text":"Norwegian literature"
+  },
+  {
+    "text":"Finnish literature"
+  },
+  {
+    "text":"Danish literature"
+  },
+  {
+    "text":"Scandinavian society & culture"
+  },
+  {
+    "text":"Swedish society & culture"
+  },
+  {
+    "text":"Norwegian society & culture"
+  },
+  {
+    "text":"Finnish society & culture"
+  },
+  {
+    "text":"Danish society & culture"
+  },
+  {
+    "text":"Scandinavian studies not elsewhere classified"
+  },
+  {
+    "text":"Russian & East European studies"
+  },
+  {
+    "text":"Russian studies"
+  },
+  {
+    "text":"Czech studies"
+  },
+  {
+    "text":"Polish studies"
+  },
+  {
+    "text":"Belarusian studies"
+  },
+  {
+    "text":"Bulgarian studies"
+  },
+  {
+    "text":"Hungarian studies"
+  },
+  {
+    "text":"Romanian studies"
+  },
+  {
+    "text":"Slovak studies"
+  },
+  {
+    "text":"Ukrainian studies"
+  },
+  {
+    "text":"Russian & East European languages"
+  },
+  {
+    "text":"Russian language"
+  },
+  {
+    "text":"Polish language"
+  },
+  {
+    "text":"Czech language"
+  },
+  {
+    "text":"Russian & east European Literature"
+  },
+  {
+    "text":"Russian literature"
+  },
+  {
+    "text":"Polish literature"
+  },
+  {
+    "text":"Czech literature"
+  },
+  {
+    "text":"Russian & east European society & culture"
+  },
+  {
+    "text":"Russian society & culture"
+  },
+  {
+    "text":"Polish society & culture"
+  },
+  {
+    "text":"Czech society & culture"
+  },
+  {
+    "text":"Russian & east European studies not elsewhere classified"
+  },
+  {
+    "text":"European studies"
+  },
+  {
+    "text":"Others in European languages, literature & related subjects"
+  },
+  {
+    "text":"Other European languages"
+  },
+  {
+    "text":"Dutch"
+  },
+  {
+    "text":"Flemish"
+  },
+  {
+    "text":"Other European literature"
+  },
+  {
+    "text":"Other European societies & cultures"
+  },
+  {
+    "text":"European languages, literature & related subjects not elsewhere classified"
+  },
+  {
+    "text":"Chinese studies"
+  },
+  {
+    "text":"Chinese language studies"
+  },
+  {
+    "text":"Chinese literature studies"
+  },
+  {
+    "text":"Chinese society & culture studies"
+  },
+  {
+    "text":"Chinese studies not elsewhere classified"
+  },
+  {
+    "text":"Japanese studies"
+  },
+  {
+    "text":"Japanese language studies"
+  },
+  {
+    "text":"Japanese literature studies"
+  },
+  {
+    "text":"Japanese society & culture studies"
+  },
+  {
+    "text":"Japanese studies not elsewhere classified"
+  },
+  {
+    "text":"South Asian studies"
+  },
+  {
+    "text":"South Asian language studies"
+  },
+  {
+    "text":"Indian language studies"
+  },
+  {
+    "text":"Pakistani language studies"
+  },
+  {
+    "text":"Sri Lankan language studies"
+  },
+  {
+    "text":"Bangladeshi language studies"
+  },
+  {
+    "text":"Nepali language studies"
+  },
+  {
+    "text":"South Asian literature studies"
+  },
+  {
+    "text":"Indian literature studies"
+  },
+  {
+    "text":"Pakistani literature studies"
+  },
+  {
+    "text":"Sri Lankan literature studies"
+  },
+  {
+    "text":"Bangladeshi literature studies"
+  },
+  {
+    "text":"Nepali literature studies"
+  },
+  {
+    "text":"South Asian society & culture studies"
+  },
+  {
+    "text":"Indian society & culture studies"
+  },
+  {
+    "text":"Pakistani society & culture studies"
+  },
+  {
+    "text":"Sri Lankan society & culture studies"
+  },
+  {
+    "text":"Bangladeshi society & culture studies"
+  },
+  {
+    "text":"Nepali society & culture studies"
+  },
+  {
+    "text":"South Asian studies not elsewhere classified"
+  },
+  {
+    "text":"Other Asian studies"
+  },
+  {
+    "text":"Other Asian language studies"
+  },
+  {
+    "text":"East Asian language studies"
+  },
+  {
+    "text":"South East Asian language studies"
+  },
+  {
+    "text":"Other Asian literature studies"
+  },
+  {
+    "text":"East Asian literature studies"
+  },
+  {
+    "text":"South East Asian literature studies"
+  },
+  {
+    "text":"Other Asian society & culture studies"
+  },
+  {
+    "text":"East Asian society & culture studies"
+  },
+  {
+    "text":"South East Asian society & culture studies"
+  },
+  {
+    "text":"Other Asian studies not elsewhere classified"
+  },
+  {
+    "text":"African studies"
+  },
+  {
+    "text":"African language studies"
+  },
+  {
+    "text":"Eastern African language studies"
+  },
+  {
+    "text":"Central African language studies"
+  },
+  {
+    "text":"Northern African language studies"
+  },
+  {
+    "text":"Southern African language studies"
+  },
+  {
+    "text":"Western African language studies"
+  },
+  {
+    "text":"African literature studies"
+  },
+  {
+    "text":"Eastern African literature studies"
+  },
+  {
+    "text":"Central African literature studies"
+  },
+  {
+    "text":"Northern African literature studies"
+  },
+  {
+    "text":"Southern African literature studies"
+  },
+  {
+    "text":"Western African literature studies"
+  },
+  {
+    "text":"African society & culture studies"
+  },
+  {
+    "text":"Eastern African society & culture studies"
+  },
+  {
+    "text":"Central African society & culture studies"
+  },
+  {
+    "text":"Northern African society & culture studies"
+  },
+  {
+    "text":"Southern African society & culture studies"
+  },
+  {
+    "text":"Western African society & culture studies"
+  },
+  {
+    "text":"African studies not elsewhere classified"
+  },
+  {
+    "text":"Modern Middle Eastern studies"
+  },
+  {
+    "text":"Modern Middle Eastern language studies"
+  },
+  {
+    "text":"Arabic language studies"
+  },
+  {
+    "text":"Modern Standard Arabic language studies"
+  },
+  {
+    "text":"Persian language studies"
+  },
+  {
+    "text":"Modern Hebrew language studies"
+  },
+  {
+    "text":"Kurdish language studies"
+  },
+  {
+    "text":"Turkish language studies"
+  },
+  {
+    "text":"Modern Middle Eastern literature studies"
+  },
+  {
+    "text":"Arabic literature studies"
+  },
+  {
+    "text":"Persian literature studies"
+  },
+  {
+    "text":"Modern Hebrew literature studies"
+  },
+  {
+    "text":"Kurdish literature studies"
+  },
+  {
+    "text":"Turkish literature studies"
+  },
+  {
+    "text":"Modern Middle Eastern society & culture studies"
+  },
+  {
+    "text":"Arab society & culture studies"
+  },
+  {
+    "text":"Persian society & culture studies"
+  },
+  {
+    "text":"Modern Hebrew society & culture studies"
+  },
+  {
+    "text":"Kurdish society & culture studies"
+  },
+  {
+    "text":"Turkish society & culture studies"
+  },
+  {
+    "text":"Modern Middle Eastern studies not elsewhere classified"
+  },
+  {
+    "text":"American studies"
+  },
+  {
+    "text":"American language studies"
+  },
+  {
+    "text":"Latin American language studies"
+  },
+  {
+    "text":"United States language studies"
+  },
+  {
+    "text":"Canadian language studies"
+  },
+  {
+    "text":"Caribbean language studies"
+  },
+  {
+    "text":"American literature studies"
+  },
+  {
+    "text":"Latin American literature studies"
+  },
+  {
+    "text":"United States literature studies"
+  },
+  {
+    "text":"Canadian literature studies"
+  },
+  {
+    "text":"Caribbean literature studies"
+  },
+  {
+    "text":"American society & culture studies"
+  },
+  {
+    "text":"Latin American society & culture studies"
+  },
+  {
+    "text":"United States society & culture studies"
+  },
+  {
+    "text":"Canadian society & culture studies"
+  },
+  {
+    "text":"Caribbean society & culture studies"
+  },
+  {
+    "text":"American studies not elsewhere classified"
+  },
+  {
+    "text":"Australasian studies"
+  },
+  {
+    "text":"Australasian language studies"
+  },
+  {
+    "text":"Australasian literature studies"
+  },
+  {
+    "text":"Australasian society & culture studies"
+  },
+  {
+    "text":"Australasian studies not elsewhere classified"
+  },
+  {
+    "text":"Others in Eastern, Asiatic, African, American & Australasian languages, literature & related subjects"
+  },
+  {
+    "text":"Others in Eastern, Asiatic, African, American & Australasian languages"
+  },
+  {
+    "text":"Others in Eastern, Asiatic, African, American & Australasian literature"
+  },
+  {
+    "text":"Others in Eastern, Asiatic, African, American & Australasian societies & culture"
+  },
+  {
+    "text":"Eastern, Asiatic, African, American & Australasian languages, literature"
+  },
+  {
+    "text":"History by period"
+  },
+  {
+    "text":"Modern history"
+  },
+  {
+    "text":"Modern history 1500-1599"
+  },
+  {
+    "text":"Modern history 1600-1699"
+  },
+  {
+    "text":"Modern history 1700-1799"
+  },
+  {
+    "text":"Modern history 1800-1899"
+  },
+  {
+    "text":"Modern history 1900-1919"
+  },
+  {
+    "text":"Modern history 1920-1949"
+  },
+  {
+    "text":"Modern history 1950-1999"
+  },
+  {
+    "text":"Modern history 2000-2099"
+  },
+  {
+    "text":"Medieval history"
+  },
+  {
+    "text":"Ancient history"
+  },
+  {
+    "text":"Late Antique history"
+  },
+  {
+    "text":"History by period not elsewhere classified"
+  },
+  {
+    "text":"History by area"
+  },
+  {
+    "text":"British history"
+  },
+  {
+    "text":"Irish history"
+  },
+  {
+    "text":"Scottish history"
+  },
+  {
+    "text":"Welsh history"
+  },
+  {
+    "text":"English history"
+  },
+  {
+    "text":"European history"
+  },
+  {
+    "text":"French history"
+  },
+  {
+    "text":"German history"
+  },
+  {
+    "text":"Italian history"
+  },
+  {
+    "text":"Iberian history"
+  },
+  {
+    "text":"Russian history"
+  },
+  {
+    "text":"American history"
+  },
+  {
+    "text":"Canadian history"
+  },
+  {
+    "text":"USA history"
+  },
+  {
+    "text":"South American history"
+  },
+  {
+    "text":"Central American history"
+  },
+  {
+    "text":"Asian history"
+  },
+  {
+    "text":"Chinese history"
+  },
+  {
+    "text":"Indian history"
+  },
+  {
+    "text":"South East Asian history"
+  },
+  {
+    "text":"Byzantine History"
+  },
+  {
+    "text":"African history"
+  },
+  {
+    "text":"North African history"
+  },
+  {
+    "text":"Central African history"
+  },
+  {
+    "text":"Southern African history"
+  },
+  {
+    "text":"East African history"
+  },
+  {
+    "text":"West African history"
+  },
+  {
+    "text":"Australasian history"
+  },
+  {
+    "text":"Australian history"
+  },
+  {
+    "text":"New Zealand history"
+  },
+  {
+    "text":"World history"
+  },
+  {
+    "text":"International history"
+  },
+  {
+    "text":"History by area not elsewhere classified"
+  },
+  {
+    "text":"History by topic"
+  },
+  {
+    "text":"Economic history"
+  },
+  {
+    "text":"Social history"
+  },
+  {
+    "text":"Local history"
+  },
+  {
+    "text":"Oral history"
+  },
+  {
+    "text":"Family history"
+  },
+  {
+    "text":"Crime history"
+  },
+  {
+    "text":"History of religions"
+  },
+  {
+    "text":"Intellectual history"
+  },
+  {
+    "text":"History of art"
+  },
+  {
+    "text":"History of architecture"
+  },
+  {
+    "text":"History of design"
+  },
+  {
+    "text":"History of science"
+  },
+  {
+    "text":"History of physics"
+  },
+  {
+    "text":"History of chemistry"
+  },
+  {
+    "text":"History of mathematics"
+  },
+  {
+    "text":"History of medicine"
+  },
+  {
+    "text":"History by topic not elsewhere classified"
+  },
+  {
+    "text":"Military history"
+  },
+  {
+    "text":"Archaeology"
+  },
+  {
+    "text":"Egyptology"
+  },
+  {
+    "text":"Stone Age"
+  },
+  {
+    "text":"Bronze Age"
+  },
+  {
+    "text":"Iron Age"
+  },
+  {
+    "text":"Archaeological conservation"
+  },
+  {
+    "text":"Archaeological techniques"
+  },
+  {
+    "text":"Classical art & archaeology"
+  },
+  {
+    "text":"Roman art & archaeology"
+  },
+  {
+    "text":"Greek art & archaeology"
+  },
+  {
+    "text":"Archaeology not elsewhere classified"
+  },
+  {
+    "text":"Philosophy"
+  },
+  {
+    "text":"Metaphysics"
+  },
+  {
+    "text":"Epistemology"
+  },
+  {
+    "text":"Moral philosophy"
+  },
+  {
+    "text":"Scholastic philosophy"
+  },
+  {
+    "text":"Social philosophy"
+  },
+  {
+    "text":"Philosophy of science"
+  },
+  {
+    "text":"Mental philosophy"
+  },
+  {
+    "text":"Philosophy not elsewhere classified"
+  },
+  {
+    "text":"Theology & religious studies"
+  },
+  {
+    "text":"Theology"
+  },
+  {
+    "text":"Religious studies"
+  },
+  {
+    "text":"Christian studies"
+  },
+  {
+    "text":"Islamic studies"
+  },
+  {
+    "text":"Judaism"
+  },
+  {
+    "text":"Hinduism"
+  },
+  {
+    "text":"Buddhism"
+  },
+  {
+    "text":"Other Asian religious studies"
+  },
+  {
+    "text":"Comparative religious studies"
+  },
+  {
+    "text":"Divinity"
+  },
+  {
+    "text":"Religious writings"
+  },
+  {
+    "text":"The Bible & Christian texts"
+  },
+  {
+    "text":"The Qur'an & Islamic texts"
+  },
+  {
+    "text":"The Torah & Judaic texts"
+  },
+  {
+    "text":"Asian religious texts"
+  },
+  {
+    "text":"Comparative religious texts"
+  },
+  {
+    "text":"Pastoral studies"
+  },
+  {
+    "text":"Theology & religious studies not elsewhere classified"
+  },
+  {
+    "text":"Heritage studies"
+  },
+  {
+    "text":"Heritage theory"
+  },
+  {
+    "text":"Heritage site management"
+  },
+  {
+    "text":"Natural heritage"
+  },
+  {
+    "text":"Coastal heritage management"
+  },
+  {
+    "text":"Visitor management including interpretation"
+  },
+  {
+    "text":"Oral history, heritage & genealogy"
+  },
+  {
+    "text":"Others in historical & philosophical studies"
+  },
+  {
+    "text":"Historical & philosophical studies not elsewhere classified"
+  },
+  {
+    "text":"Fine art"
+  },
+  {
+    "text":"Drawing"
+  },
+  {
+    "text":"Painting"
+  },
+  {
+    "text":"Sculpture"
+  },
+  {
+    "text":"Printmaking"
+  },
+  {
+    "text":"Calligraphy"
+  },
+  {
+    "text":"Fine art conservation"
+  },
+  {
+    "text":"Fine art not elsewhere classified"
+  },
+  {
+    "text":"Design studies"
+  },
+  {
+    "text":"Graphic design"
+  },
+  {
+    "text":"Typography"
+  },
+  {
+    "text":"Multimedia design"
+  },
+  {
+    "text":"Visual communication"
+  },
+  {
+    "text":"Illustration"
+  },
+  {
+    "text":"Clothing/fashion design"
+  },
+  {
+    "text":"Textile design"
+  },
+  {
+    "text":"Industrial/product design"
+  },
+  {
+    "text":"Interior design"
+  },
+  {
+    "text":"Furniture design"
+  },
+  {
+    "text":"Ceramics design"
+  },
+  {
+    "text":"Interactive & electronic design"
+  },
+  {
+    "text":"Design studies not elsewhere classified"
+  },
+  {
+    "text":"Music"
+  },
+  {
+    "text":"Musicianship/performance studies"
+  },
+  {
+    "text":"Instrumental or vocal performance"
+  },
+  {
+    "text":"Musical theatre"
+  },
+  {
+    "text":"Conducting"
+  },
+  {
+    "text":"Jazz performance"
+  },
+  {
+    "text":"Popular music performance"
+  },
+  {
+    "text":"Electronic/electro-acoustic music performance"
+  },
+  {
+    "text":"Historical performance practice"
+  },
+  {
+    "text":"Music education/teaching"
+  },
+  {
+    "text":"History of music"
+  },
+  {
+    "text":"Types of music"
+  },
+  {
+    "text":"Popular music"
+  },
+  {
+    "text":"Film music/screen music"
+  },
+  {
+    "text":"Jazz"
+  },
+  {
+    "text":"Folk music"
+  },
+  {
+    "text":"Opera"
+  },
+  {
+    "text":"Sacred music"
+  },
+  {
+    "text":"Musicology"
+  },
+  {
+    "text":"Ethnomusicology/world music"
+  },
+  {
+    "text":"Community music"
+  },
+  {
+    "text":"Music & gender"
+  },
+  {
+    "text":"Philosophy, aesthetics & criticism of music"
+  },
+  {
+    "text":"Music psychology"
+  },
+  {
+    "text":"Music theory & analysis"
+  },
+  {
+    "text":"Sociology of music"
+  },
+  {
+    "text":"Musical instrument history"
+  },
+  {
+    "text":"Music technology & industry"
+  },
+  {
+    "text":"Sound design/commercial music recording"
+  },
+  {
+    "text":"Creative music technology"
+  },
+  {
+    "text":"Electro-acoustic studies"
+  },
+  {
+    "text":"Music production"
+  },
+  {
+    "text":"Music management/music industry management/arts management"
+  },
+  {
+    "text":"Music marketing"
+  },
+  {
+    "text":"Composition"
+  },
+  {
+    "text":"Electracoustic composition/acousmatic composition"
+  },
+  {
+    "text":"Sonic arts"
+  },
+  {
+    "text":"Electronic music"
+  },
+  {
+    "text":"Applied music/musicianship"
+  },
+  {
+    "text":"Commercial music composition"
+  },
+  {
+    "text":"Multimedia music composition"
+  },
+  {
+    "text":"Jazz composition"
+  },
+  {
+    "text":"Popular music composition"
+  },
+  {
+    "text":"Music not elsewhere classified"
+  },
+  {
+    "text":"Drama"
+  },
+  {
+    "text":"Acting"
+  },
+  {
+    "text":"Directing for theatre"
+  },
+  {
+    "text":"Producing for theatre"
+  },
+  {
+    "text":"Theatre studies"
+  },
+  {
+    "text":"Theatre & professional practice"
+  },
+  {
+    "text":"Contemporary theatre"
+  },
+  {
+    "text":"Technical arts & special effects for theatre"
+  },
+  {
+    "text":"Stage management"
+  },
+  {
+    "text":"Theatrical wardrobe design"
+  },
+  {
+    "text":"Theatrical make-up"
+  },
+  {
+    "text":"Technical stage management"
+  },
+  {
+    "text":"Theatre design"
+  },
+  {
+    "text":"Stage design"
+  },
+  {
+    "text":"Performance & live arts"
+  },
+  {
+    "text":"European/world theatre arts"
+  },
+  {
+    "text":"Circus arts"
+  },
+  {
+    "text":"Community theatre"
+  },
+  {
+    "text":"Drama not elsewhere classified"
+  },
+  {
+    "text":"Dance"
+  },
+  {
+    "text":"Choreography"
+  },
+  {
+    "text":"Body awareness"
+  },
+  {
+    "text":"History of dance"
+  },
+  {
+    "text":"Dance & culture"
+  },
+  {
+    "text":"Community dance"
+  },
+  {
+    "text":"Types of dance"
+  },
+  {
+    "text":"Ballet"
+  },
+  {
+    "text":"Dance theatre"
+  },
+  {
+    "text":"Contemporary dance"
+  },
+  {
+    "text":"Jazz dance"
+  },
+  {
+    "text":"Dance performance"
+  },
+  {
+    "text":"Dance not elsewhere classified"
+  },
+  {
+    "text":"Cinematics & photography"
+  },
+  {
+    "text":"Moving image techniques"
+  },
+  {
+    "text":"Directing motion pictures"
+  },
+  {
+    "text":"Producing motion pictures"
+  },
+  {
+    "text":"Film & sound recording"
+  },
+  {
+    "text":"Visual & audio effects"
+  },
+  {
+    "text":"Animation techniques"
+  },
+  {
+    "text":"Cinematography"
+  },
+  {
+    "text":"History of cinematics & photography"
+  },
+  {
+    "text":"History of cinematics"
+  },
+  {
+    "text":"History of photography"
+  },
+  {
+    "text":"Photography"
+  },
+  {
+    "text":"Cinematics & photography not elsewhere classified"
+  },
+  {
+    "text":"Crafts"
+  },
+  {
+    "text":"Fabric & leather crafts"
+  },
+  {
+    "text":"Needlecraft"
+  },
+  {
+    "text":"Dressmaking"
+  },
+  {
+    "text":"Soft furnishing"
+  },
+  {
+    "text":"Weaving"
+  },
+  {
+    "text":"Leatherwork"
+  },
+  {
+    "text":"Metal crafts"
+  },
+  {
+    "text":"Silversmithing/goldsmithing"
+  },
+  {
+    "text":"Blacksmithing"
+  },
+  {
+    "text":"Clock/watchmaking"
+  },
+  {
+    "text":"Wood crafts"
+  },
+  {
+    "text":"Carpentry/joinery"
+  },
+  {
+    "text":"Cabinet making"
+  },
+  {
+    "text":"Marquetry & inlaying"
+  },
+  {
+    "text":"Veneering"
+  },
+  {
+    "text":"Surface decoration"
+  },
+  {
+    "text":"Clay & stone crafts"
+  },
+  {
+    "text":"Pottery"
+  },
+  {
+    "text":"Tile making"
+  },
+  {
+    "text":"Stone crafts"
+  },
+  {
+    "text":"Reed crafts"
+  },
+  {
+    "text":"Basketry"
+  },
+  {
+    "text":"Thatching"
+  },
+  {
+    "text":"Glass crafts"
+  },
+  {
+    "text":"Glassblowing"
+  },
+  {
+    "text":"Paper crafts"
+  },
+  {
+    "text":"Bookbinding"
+  },
+  {
+    "text":"Origami"
+  },
+  {
+    "text":"Crafts not elsewhere classified"
+  },
+  {
+    "text":"Imaginative writing"
+  },
+  {
+    "text":"Scriptwriting"
+  },
+  {
+    "text":"Poetry writing"
+  },
+  {
+    "text":"Prose writing"
+  },
+  {
+    "text":"Imaginative writing not elsewhere classified"
+  },
+  {
+    "text":"Others in creative arts & design"
+  },
+  {
+    "text":"Creative arts & design not elsewhere classified"
+  },
+  {
+    "text":"Training teachers"
+  },
+  {
+    "text":"Training teachers - nursery"
+  },
+  {
+    "text":"Training teachers - primary"
+  },
+  {
+    "text":"Training teachers - infant (key stage 1)"
+  },
+  {
+    "text":"Training teachers - junior (key stage 2)"
+  },
+  {
+    "text":"Training teachers - secondary"
+  },
+  {
+    "text":"Training teachers - key stage 3"
+  },
+  {
+    "text":"Training teachers - key stage 4"
+  },
+  {
+    "text":"Training teachers - tertiary"
+  },
+  {
+    "text":"Training teachers - further education"
+  },
+  {
+    "text":"Training teachers - higher education"
+  },
+  {
+    "text":"Training teachers - adult education"
+  },
+  {
+    "text":"Training teachers - coaching"
+  },
+  {
+    "text":"Training teachers - specialist"
+  },
+  {
+    "text":"Training teachers - special needs"
+  },
+  {
+    "text":"Teaching English as a Foreign Language (TEFL)"
+  },
+  {
+    "text":"Training teachers not elsewhere classified"
+  },
+  {
+    "text":"Research & study skills in education"
+  },
+  {
+    "text":"Research skills"
+  },
+  {
+    "text":"Study skills"
+  },
+  {
+    "text":"Research & study skills in education not elsewhere classified"
+  },
+  {
+    "text":"Academic studies in education"
+  },
+  {
+    "text":"Academic studies in nursery education"
+  },
+  {
+    "text":"Academic studies in primary education"
+  },
+  {
+    "text":"Academic studies in secondary education"
+  },
+  {
+    "text":"Academic studies in tertiary education"
+  },
+  {
+    "text":"Academic studies in further education"
+  },
+  {
+    "text":"Academic studies in higher education"
+  },
+  {
+    "text":"Academic studies in adult education"
+  },
+  {
+    "text":"Academic studies in specialist education"
+  },
+  {
+    "text":"Academic studies in education (across phases)"
+  },
+  {
+    "text":"Academic studies in education not elsewhere classified"
+  },
+  {
+    "text":"Others in education"
+  },
+  {
+    "text":"Education not elsewhere classified"
+  },
+  {
+    "text":"Computer science"
+  },
+  {
+    "text":"Medicine"
+  },
+  {
+    "text":"Dentistry"
+  },
+  {
+    "text":"Anatomy, Physiology and Pathology"
+  },
+  {
+    "text":"Pharmacology, Toxicology and Pharmacy"
+  },
+  {
+    "text":"Nursing"
+  },
+  {
+    "text":"Complementary Medicine"
+  },
+  {
+    "text":"Nutrition"
+  },
+  {
+    "text":"Ophthalmics"
+  },
+  {
+    "text":"Aural and Oral Sciences"
+  },
+  {
+    "text":"Medical Technology"
+  },
+  {
+    "text":"Others in Subjects allied to Medicine"
+  },
+  {
+    "text":"Biology"
+  },
+  {
+    "text":"Zoology"
+  },
+  {
+    "text":"Genetics"
+  },
+  {
+    "text":"Microbiology"
+  },
+  {
+    "text":"Molecular Biology, Biophysics and Biochemistry"
+  },
+  {
+    "text":"Others in Biological Sciences "
+  },
+  {
+    "text":"Sports Science"
+  },
+  {
+    "text":"Psychology"
+  },
+  {
+    "text":"Veterinary Sciences"
+  },
+  {
+    "text":"Animal Science"
+  },
+  {
+    "text":"Forestry"
+  },
+  {
+    "text":"Food and Beverage studies"
+  },
+  {
+    "text":"Agriculture and others in Veterinary Sciences, Agriculture and related subjects"
+  },
+  {
+    "text":"Chemistry"
+  },
+  {
+    "text":"Physics and Astronomy"
+  },
+  {
+    "text":"Forensic and Archaeological Science"
+  },
+  {
+    "text":"Geology"
+  },
+  {
+    "text":"Ocean Sciences"
+  },
+  {
+    "text":"Others in Physical Sciences"
+  },
+  {
+    "text":"Physical Geography and Environmental Science"
+  },
+  {
+    "text":"Mathematics and Statistics"
+  },
+  {
+    "text":"Operational Research"
+  },
+  {
+    "text":"Others in Mathematical and Computer Sciences"
+  },
+  {
+    "text":"Computer Science"
+  },
+  {
+    "text":"General Engineering"
+  },
+  {
+    "text":"Mechanical, Production and Manufacturing Engineering"
+  },
+  {
+    "text":"Aerospace Engineering"
+  },
+  {
+    "text":"Naval Architecture"
+  },
+  {
+    "text":"Electronic and Electrical Engineering"
+  },
+  {
+    "text":"Civil Engineering"
+  },
+  {
+    "text":"Chemical, Process and Energy Engineering"
+  },
+  {
+    "text":"Others in Engineering"
+  },
+  {
+    "text":"Materials and Minerals Technology"
+  },
+  {
+    "text":"Maritime Technology"
+  },
+  {
+    "text":"Others in Technology"
+  },
+  {
+    "text":"Architecture"
+  },
+  {
+    "text":"Building"
+  },
+  {
+    "text":"Landscape Design"
+  },
+  {
+    "text":"Planning (Urban, Rural and Regional)"
+  },
+  {
+    "text":"Others in Architecture, Building and Planning"
+  },
+  {
+    "text":"Economics"
+  },
+  {
+    "text":"Politics"
+  },
+  {
+    "text":"Sociology"
+  },
+  {
+    "text":"Social Policy"
+  },
+  {
+    "text":"Anthropology"
+  },
+  {
+    "text":"Others in Social studies"
+  },
+  {
+    "text":"Social Work"
+  },
+  {
+    "text":"Human and Social Geography"
+  },
+  {
+    "text":"Law"
+  },
+  {
+    "text":"Business studies"
+  },
+  {
+    "text":"Marketing"
+  },
+  {
+    "text":"Management studies"
+  },
+  {
+    "text":"Human Resource Management"
+  },
+  {
+    "text":"Finance"
+  },
+  {
+    "text":"Accounting"
+  },
+  {
+    "text":"Tourism, Transport and Travel"
+  },
+  {
+    "text":"Others in Business and Administrative studies"
+  },
+  {
+    "text":"Media studies"
+  },
+  {
+    "text":"Information Services"
+  },
+  {
+    "text":"Publicity studies"
+  },
+  {
+    "text":"Publishing"
+  },
+  {
+    "text":"Journalism"
+  },
+  {
+    "text":"Others in Mass Communications and Documentation"
+  },
+  {
+    "text":"English studies"
+  },
+  {
+    "text":"American and Australasian studies"
+  },
+  {
+    "text":"Celtic studies"
+  },
+  {
+    "text":"Classics"
+  },
+  {
+    "text":"French studies"
+  },
+  {
+    "text":"German and Scandinavian studies"
+  },
+  {
+    "text":"Italian studies"
+  },
+  {
+    "text":"Iberian studies"
+  },
+  {
+    "text":"Others in European Languages and Area studies "
+  },
+  {
+    "text":"Linguistics"
+  },
+  {
+    "text":"Comparative Literary studies"
+  },
+  {
+    "text":"Others in Linguistics, Classics and related subjects"
+  },
+  {
+    "text":"Asian studies"
+  },
+  {
+    "text":"African and Modern Middle Eastern studies"
+  },
+  {
+    "text":"Others in Eastern, Asian and African Languages and Area studies "
+  },
+  {
+    "text":"History"
+  },
+  {
+    "text":"Archaeology"
+  },
+  {
+    "text":"Others in Historical and Philosophical studies"
+  },
+  {
+    "text":"Philosophy"
+  },
+  {
+    "text":"Theology and Religious studies"
+  },
+  {
+    "text":"Fine Art"
+  },
+  {
+    "text":"Design studies"
+  },
+  {
+    "text":"Music"
+  },
+  {
+    "text":"Drama"
+  },
+  {
+    "text":"Dance"
+  },
+  {
+    "text":"Cinematics and Photography"
+  },
+  {
+    "text":"Imaginative Writing"
+  },
+  {
+    "text":"Others in Creative Arts and Design"
+  },
+  {
+    "text":"Teacher Training"
+  },
+  {
+    "text":"Research and Study Skills in Education"
+  },
+  {
+    "text":"Academic studies in Education"
+  },
+  {
+    "text":"Others in Education"
+  },
+  {
+    "text":"Combined"
+  },
+  {
+    "text":"Initial Teacher Training"
+  }
+]

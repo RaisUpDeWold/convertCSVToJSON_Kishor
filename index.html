@@ -12,65 +12,57 @@
         </style>
     </head>
     <body>
-        <p>Select Local CSV File : </p>
-        <input id="csvFilePicker" type="file" />
+        <p>Select KISCOURSE.csv File : <input id="kisCoursePicker" type="file" /></p>
+        <p>Select CAU-COURSES-unistats16_2016_10_12_14_00_34V1.7.csv File : <input id="cauCoursesPicker" type="file" /></p>
+        <p>Select CAU-ORGANISATIONS-20160901 V1.1.csv File : <input id="cauOrganisationsPicker" type="file" /></p>
+        <p>Select COURSESTAGE.csv File : <input id="courseStagePicker" type="file" /></p>
+        <p>Select INSTITUTION.csv File : <input id="institutionPicker" type="file" /></p>
+        <p><input type="button" value="Generate JSON" onclick="generateJSON()" /></p>
 
         <output id="out">
         </output>
 
         <script type="text/javascript">
-            function addTextNode(jsonText) {
-                var textNode = document.createElement('article');
-                textNode.innerHTML = jsonText;
-                document.getElementById('out').appendChild(textNode);
-            }
+            var mainJSON = {};
 
-            var fileinput = document.getElementById("csvFilePicker");
-            readFile = function() {
-                var reader = new FileReader();
-                reader.onload = function() {
-                    //document.getElementById("out").innerHTML = reader.result;
-                    var rows = reader.result.split("\n");
-                    var textNode;
-
-                    var startIndex = 0;
-                    var endIndex = 1000;
+            function generateJSON() {
+                var startIndex = 0;
+                var endIndex = 30;
+                
+                var UKPRN = Object.keys(mainJSON);
+                startIndex = (startIndex >= UKPRN.length)?UKPRN.length - 1 : startIndex;
+                endIndex = (endIndex >= UKPRN.length)?UKPRN.length : endIndex;
+                for (var i = startIndex; i < endIndex; i ++) {
+                    var KISCOURSEID = Object.keys(mainJSON[UKPRN[i]]);
+                    for (var j = 0; j < KISCOURSEID.length; j ++) {
+                        var uniName = UKPRN[i],
+                        uniUrl = UKPRN[i],
+                        uniToolTip = UKPRN[i],
+                        courseUrl = UKPRN[i],
+                        courseToolTip = UKPRN[i],
+                        subjectName = UKPRN[i],
+                        subjectToolTip = UKPRN[i],
+                        entry = UKPRN[i],
+                        entryToolTip = UKPRN[i],
+                        UCAS = UKPRN[i],
+                        UCASToolTip = UKPRN[i],
+                        years = UKPRN[i],
+                        yearsToolTip = UKPRN[i],
+                        qualification = UKPRN[i],
+                        qualificationToolTip = UKPRN[i],
+                        offers = UKPRN[i],
+                        offersToolTip = UKPRN[i],
+                        group = UKPRN[i],
+                        groupUrl = UKPRN[i],
+                        groupToolTip = UKPRN[i],
+                        rank2011 = UKPRN[i],
+                        rank2012 = UKPRN[i];
                     
-                    startIndex = (startIndex >= rows.length)?rows.length - 1 : startIndex;
-                    endIndex = (endIndex >= rows.length)?rows.length : endIndex;
-                    addTextNode(rows[0]);
-                    addTextNode(rows[1]);
-                    for (var i = startIndex; i < endIndex; i ++) {
-                        var rowCols = rows[i].split(",");
-                        var uniName = rowCols[0],
-                            uniUrl = rowCols[0],
-                            uniToolTip = rowCols[0],
-                            courseName = rowCols[39],
-                            courseUrl = rowCols[0],
-                            courseToolTip = rowCols[0],
-                            subjectName = rowCols[0],
-                            subjectToolTip = rowCols[0],
-                            entry = rowCols[0],
-                            entryToolTip = rowCols[0],
-                            UCAS = rowCols[0],
-                            UCASToolTip = rowCols[0],
-                            years = rowCols[0],
-                            yearsToolTip = rowCols[0],
-                            qualification = rowCols[0],
-                            qualificationToolTip = rowCols[0],
-                            offers = rowCols[0],
-                            offersToolTip = rowCols[0],
-                            group = rowCols[0],
-                            groupUrl = rowCols[0],
-                            groupToolTip = rowCols[0],
-                            rank2011 = rowCols[0],
-                            rank2012 = rowCols[0];
-                        
                         addTextNode('{' + '<br>' + 
                                     '"uniName":"' + uniName + '",' + '<br>' +
                                     '"uniUrl":"' + uniName + '",' + '<br>' +
                                     '"uniToolTip":"' + uniToolTip + '",' + '<br>' +
-                                    '"courseName":"' + courseName + '",' + '<br>' +
+                                    '"courseName":"' + mainJSON[UKPRN[i]][KISCOURSEID[j]]['courseName'] + '",' + '<br>' +
                                     '"courseUrl":"' + courseUrl + '",' + '<br>' +
                                     '"courseToolTip":"' + courseToolTip + '",' + '<br>' +
                                     '"subjectName":"' + subjectName + '",' + '<br>' +
@@ -92,11 +84,31 @@
                                     '"rank2012":"' + rank2012 + '"' + '<br>' +
                                     '},');
                     }
-                };
-                reader.readAsBinaryString(fileinput.files[0]);
-            };
+                }
+            }
 
-            fileinput.addEventListener('change', readFile);
+            function addTextNode(jsonText) {
+                var textNode = document.createElement('article');
+                textNode.innerHTML = jsonText;
+                document.getElementById('out').appendChild(textNode);
+            }
+
+            var kisCourseInput = document.getElementById('kisCoursePicker');
+            kisCourseInput.addEventListener('change', function() {
+                var reader = new FileReader();
+                reader.onload = function() {
+                    var rows = reader.result.split("\n");
+                    for (var i = 0; i < rows.length; i ++) {
+                        var rowCols = rows[i].split(",");
+                        if (!mainJSON[rowCols[1]]) mainJSON[rowCols[1]] = {};
+                        if (!mainJSON[rowCols[1]][rowCols[16]]) mainJSON[rowCols[1]][rowCols[16]] = {};
+                        mainJSON[rowCols[1]][rowCols[16]]['courseName'] = rowCols[39];
+                    }
+                };
+                reader.readAsBinaryString(kisCourseInput.files[0]);
+            });
+
+            var courseStageInput = document.getElementById('courseStagePicker');
         </script>
     </body>
 </html>

@@ -38,33 +38,58 @@
                     
                     startIndex = (startIndex >= rows.length)?rows.length - 1 : startIndex;
                     endIndex = (endIndex >= rows.length)?rows.length : endIndex;
+                    addTextNode(rows[0]);
+                    addTextNode(rows[1]);
                     for (var i = startIndex; i < endIndex; i ++) {
                         var rowCols = rows[i].split(",");
+                        var uniName = rowCols[0],
+                            uniUrl = rowCols[0],
+                            uniToolTip = rowCols[0],
+                            courseName = rowCols[39],
+                            courseUrl = rowCols[0],
+                            courseToolTip = rowCols[0],
+                            subjectName = rowCols[0],
+                            subjectToolTip = rowCols[0],
+                            entry = rowCols[0],
+                            entryToolTip = rowCols[0],
+                            UCAS = rowCols[0],
+                            UCASToolTip = rowCols[0],
+                            years = rowCols[0],
+                            yearsToolTip = rowCols[0],
+                            qualification = rowCols[0],
+                            qualificationToolTip = rowCols[0],
+                            offers = rowCols[0],
+                            offersToolTip = rowCols[0],
+                            group = rowCols[0],
+                            groupUrl = rowCols[0],
+                            groupToolTip = rowCols[0],
+                            rank2011 = rowCols[0],
+                            rank2012 = rowCols[0];
                         
                         addTextNode('{' + '<br>' + 
-                                    '"uniName":"' + rowCols[0] + '",' + '<br>' +
-                                    '"uniUrl":"' + rowCols[0] + '",' + '<br>' +
-                                    '"uniToolTip":"' + rowCols[0] + '",' + '<br>' +
-                                    '"courseName":"' + rowCols[0] + '",' + '<br>' +
-                                    '"courseUrl":"' + rowCols[0] + '",' + '<br>' +
-                                    '"courseToolTip":"' + rowCols[0] + '",' + '<br>' +
-                                    '"subjectName":"' + rowCols[0] + '",' + '<br>' +
-                                    '"subjectToolTip":"' + rowCols[0] + '",' + '<br>' +
-                                    '"entry":"' + rowCols[0] + '",' + '<br>' +
-                                    '"entryToolTip":"' + rowCols[0] + '",' + '<br>' +
-                                    '"UCAS":"' + rowCols[0] + '",' + '<br>' +
-                                    '"UCASToolTip":"' + rowCols[0] + '",' + '<br>' +
-                                    '"years":"' + rowCols[0] + '",' + '<br>' +
-                                    '"yearsToolTip":"' + rowCols[0] + '",' + '<br>' +
-                                    '"qualification":"' + rowCols[0] + '",' + '<br>' +
-                                    '"qualificationToolTip":"' + rowCols[0] + '",' + '<br>' +
-                                    '"offers":"' + rowCols[0] + '",' + '<br>' +
-                                    '"offersToolTip":"' + rowCols[0] + '",' + '<br>' +
-                                    '"group":"' + rowCols[0] + '",' + '<br>' +
-                                    '"groupUrl":"' + rowCols[0] + '",' + '<br>' +
-                                    '"groupToolTip":"' + rowCols[0] + '",' + '<br>' +
-                                    '"rank2011":"' + rowCols[0] + '",' + '<br>' +
-                                    '"rank2012":"' + rowCols[0] + '"' + '<br>' +
+                                    '"uniName":"' + uniName + '",' + '<br>' +
+                                    '"uniUrl":"' + uniName + '",' + '<br>' +
+                                    '"uniToolTip":"' + uniToolTip + '",' + '<br>' +
+                                    '"courseName":"' + courseName + '",' + '<br>' +
+                                    '"courseUrl":"' + courseUrl + '",' + '<br>' +
+                                    '"courseToolTip":"' + courseToolTip + '",' + '<br>' +
+                                    '"subjectName":"' + subjectName + '",' + '<br>' +
+                                    '"subjectToolTip":"' + subjectToolTip + '",' + '<br>' +
+                                    '"entry":"' + entry + '",' + '<br>' +
+                                    '"entryToolTip":"' + entryToolTip + '",' + '<br>' +
+                                    '"UCAS":"' + UCAS + '",' + '<br>' +
+                                    '"UCASToolTip":"' + UCASToolTip + '",' + '<br>' +
+                                    '"years":"' + years + '",' + '<br>' +
+                                    '"yearsToolTip":"' + yearsToolTip + '",' + '<br>' +
+                                    '"qualification":"' + qualification + '",' + '<br>' +
+                                    '"qualificationToolTip":"' + qualificationToolTip + '",' + '<br>' +
+                                    '"offers":"' + offers + '",' + '<br>' +
+                                    '"offersToolTip":"' + offersToolTip + '",' + '<br>' +
+                                    '"group":"' + group + '",' + '<br>' +
+                                    '"groupUrl":"' + groupUrl + '",' + '<br>' +
+                                    '"groupToolTip":"' + groupToolTip + '",' + '<br>' +
+                                    '"rank2011":"' + rank2011 + '",' + '<br>' +
+                                    '"rank2012":"' + rank2012 + '"' + '<br>' +
                                     '},');
                     }
                 };

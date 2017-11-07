@@ -17,6 +17,8 @@
         <p>Select CAU-ORGANISATIONS-20160901 V1.1.csv File : <input id="cauOrganisationsPicker" type="file" /></p>
         <p>Select COURSESTAGE.csv File : <input id="courseStagePicker" type="file" /></p>
         <p>Select INSTITUTION.csv File : <input id="institutionPicker" type="file" /></p>
+        <p>Start Index : <input type="text" id="startIndexInput" /></p>
+        <p>End Index : <input type="text" id="endIndexInput" /></p>
         <p><input type="button" value="Generate JSON" onclick="generateJSON()" /></p>
 
         <output id="out">
@@ -26,65 +28,63 @@
             var mainJSON = {};
 
             function generateJSON() {
-                var startIndex = 0;
-                var endIndex = 30;
+                var startIndex = parseInt(document.getElementById('startIndexInput').value, 10);
+                var endIndex = parseInt(document.getElementById('endIndexInput').value, 10);
                 
                 var UKPRN = Object.keys(mainJSON);
                 startIndex = (startIndex >= UKPRN.length)?UKPRN.length - 1 : startIndex;
                 endIndex = (endIndex >= UKPRN.length)?UKPRN.length : endIndex;
+
+                document.getElementById('out').innerHTML = '';
                 for (var i = startIndex; i < endIndex; i ++) {
                     var KISCOURSEID = Object.keys(mainJSON[UKPRN[i]]);
                     for (var j = 0; j < KISCOURSEID.length; j ++) {
-                        var uniName = UKPRN[i],
-                        uniUrl = UKPRN[i],
-                        uniToolTip = UKPRN[i],
-                        courseUrl = UKPRN[i],
-                        courseToolTip = UKPRN[i],
-                        subjectName = UKPRN[i],
-                        subjectToolTip = UKPRN[i],
-                        entry = UKPRN[i],
-                        entryToolTip = UKPRN[i],
-                        UCAS = UKPRN[i],
-                        UCASToolTip = UKPRN[i],
-                        years = UKPRN[i],
-                        yearsToolTip = UKPRN[i],
-                        qualification = UKPRN[i],
-                        qualificationToolTip = UKPRN[i],
-                        offers = UKPRN[i],
-                        offersToolTip = UKPRN[i],
-                        group = UKPRN[i],
-                        groupUrl = UKPRN[i],
-                        groupToolTip = UKPRN[i],
-                        rank2011 = UKPRN[i],
-                        rank2012 = UKPRN[i];
-                    
-                        addTextNode('{' + '<br>' + 
-                                    '"uniName":"' + uniName + '",' + '<br>' +
-                                    '"uniUrl":"' + uniName + '",' + '<br>' +
-                                    '"uniToolTip":"' + uniToolTip + '",' + '<br>' +
-                                    '"courseName":"' + mainJSON[UKPRN[i]][KISCOURSEID[j]]['courseName'] + '",' + '<br>' +
-                                    '"courseUrl":"' + courseUrl + '",' + '<br>' +
-                                    '"courseToolTip":"' + courseToolTip + '",' + '<br>' +
-                                    '"subjectName":"' + subjectName + '",' + '<br>' +
-                                    '"subjectToolTip":"' + subjectToolTip + '",' + '<br>' +
-                                    '"entry":"' + entry + '",' + '<br>' +
-                                    '"entryToolTip":"' + entryToolTip + '",' + '<br>' +
-                                    '"UCAS":"' + UCAS + '",' + '<br>' +
-                                    '"UCASToolTip":"' + UCASToolTip + '",' + '<br>' +
-                                    '"years":"' + years + '",' + '<br>' +
-                                    '"yearsToolTip":"' + yearsToolTip + '",' + '<br>' +
-                                    '"qualification":"' + qualification + '",' + '<br>' +
-                                    '"qualificationToolTip":"' + qualificationToolTip + '",' + '<br>' +
-                                    '"offers":"' + offers + '",' + '<br>' +
-                                    '"offersToolTip":"' + offersToolTip + '",' + '<br>' +
-                                    '"group":"' + group + '",' + '<br>' +
-                                    '"groupUrl":"' + groupUrl + '",' + '<br>' +
-                                    '"groupToolTip":"' + groupToolTip + '",' + '<br>' +
-                                    '"rank2011":"' + rank2011 + '",' + '<br>' +
-                                    '"rank2012":"' + rank2012 + '"' + '<br>' +
-                                    '},');
+                        var KISMODE = Object.keys(mainJSON[UKPRN[i]][KISCOURSEID[j]]);
+                        for (var k = 0; k < KISMODE.length; k ++) {
+                            var uniToolTip = UKPRN[i],
+                            courseToolTip = UKPRN[i],
+                            subjectName = UKPRN[i],
+                            subjectToolTip = UKPRN[i],
+                            entry = UKPRN[i],
+                            entryToolTip = UKPRN[i],
+                            UCAS = UKPRN[i],
+                            UCASToolTip = UKPRN[i],
+                            yearsToolTip = UKPRN[i],
+                            qualificationToolTip = UKPRN[i],
+                            offers = UKPRN[i],
+                            offersToolTip = UKPRN[i],
+                            groupUrl = UKPRN[i],
+                            groupToolTip = UKPRN[i];
+                        
+                            addTextNode('{' + '<br>' + 
+                                        '"uniName":"' + mainJSON[UKPRN[i]]['uniName'] + '",' + '<br>' +
+                                        '"uniUrl":"' + mainJSON[UKPRN[i]]['uniUrl'] + '",' + '<br>' +
+                                        '"uniToolTip":"' + uniToolTip + '",' + '<br>' +
+                                        '"courseName":"' + mainJSON[UKPRN[i]][KISCOURSEID[j]][KISMODE[k]]['courseName'] + '",' + '<br>' +
+                                        '"courseUrl":"' + mainJSON[UKPRN[i]][KISCOURSEID[j]][KISMODE[k]]['courseUrl'] + '",' + '<br>' +
+                                        '"courseToolTip":"' + courseToolTip + '",' + '<br>' +
+                                        '"subjectName":"' + subjectName + '",' + '<br>' +
+                                        '"subjectToolTip":"' + subjectToolTip + '",' + '<br>' +
+                                        '"entry":"' + entry + '",' + '<br>' +
+                                        '"entryToolTip":"' + entryToolTip + '",' + '<br>' +
+                                        '"UCAS":"' + UCAS + '",' + '<br>' +
+                                        '"UCASToolTip":"' + UCASToolTip + '",' + '<br>' +
+                                        '"years":"' + mainJSON[UKPRN[i]][KISCOURSEID[j]][KISMODE[k]]['years'] + '",' + '<br>' +
+                                        '"yearsToolTip":"' + yearsToolTip + '",' + '<br>' +
+                                        '"qualification":"' + mainJSON[UKPRN[i]][KISCOURSEID[j]][KISMODE[k]]['qualification'] + '",' + '<br>' +
+                                        '"qualificationToolTip":"' + qualificationToolTip + '",' + '<br>' +
+                                        '"offers":"' + offers + '",' + '<br>' +
+                                        '"offersToolTip":"' + offersToolTip + '",' + '<br>' +
+                                        '"group":"' + mainJSON[UKPRN[i]]['group'] + '",' + '<br>' +
+                                        '"groupUrl":"' + groupUrl + '",' + '<br>' +
+                                        '"groupToolTip":"' + groupToolTip + '",' + '<br>' +
+                                        '"rank2011":"' + mainJSON[UKPRN[i]]['rank2011'] + '",' + '<br>' +
+                                        '"rank2012":"' + mainJSON[UKPRN[i]]['rank2012'] + '"' + '<br>' +
+                                        '},');
+                        }
                     }
                 }
+                alert("Finished Generating");
             }
 
             function addTextNode(jsonText) {
@@ -102,13 +102,85 @@
                         var rowCols = rows[i].split(",");
                         if (!mainJSON[rowCols[1]]) mainJSON[rowCols[1]] = {};
                         if (!mainJSON[rowCols[1]][rowCols[16]]) mainJSON[rowCols[1]][rowCols[16]] = {};
-                        mainJSON[rowCols[1]][rowCols[16]]['courseName'] = rowCols[39];
+                        if (!mainJSON[rowCols[1]][rowCols[16]][rowCols[17]]) mainJSON[rowCols[1]][rowCols[16]][rowCols[17]] = {};
+                        mainJSON[rowCols[1]][rowCols[16]][rowCols[17]]['courseName'] = rowCols[39] + ' : ' + rowCols[16];
+                        mainJSON[rowCols[1]][rowCols[16]][rowCols[17]]['courseUrl'] = rowCols[4];
                     }
+                    alert('Finished Reading!');
                 };
                 reader.readAsBinaryString(kisCourseInput.files[0]);
             });
 
+            var cauCoursesInput = document.getElementById('cauCoursesPicker');
+            cauCoursesInput.addEventListener('change', function() {
+                var reader = new FileReader();
+                reader.onload = function() {
+                    var rows = reader.result.split('\n');
+                    for (var i = 0; i < rows.length; i ++) {
+                        var rowCols = rows[i].split(',');
+                        if (mainJSON[rowCols[0]] && mainJSON[rowCols[0]][rowCols[4]] && mainJSON[rowCols[0]][rowCols[4]][rowCols[5]]) {
+                            mainJSON[rowCols[0]][rowCols[4]][rowCols[5]]['qualification'] = rowCols[14];
+                        }
+                    }
+                    alert('Finished Reading!');
+                };
+                reader.readAsBinaryString(cauCoursesInput.files[0]);
+            });
+
+            var cauOrganisationsInput = document.getElementById('cauOrganisationsPicker');
+            cauOrganisationsInput.addEventListener('change', function() {
+                var reader = new FileReader();
+                reader.onload = function() {
+                    var rows = reader.result.split('\n');
+                    for (var i = 0; i < rows.length; i ++) {
+                        var rowCols = rows[i].split(',');
+                        if (mainJSON[rowCols[0]]) {
+                            mainJSON[rowCols[0]]['uniName'] = rowCols[1];
+                            mainJSON[rowCols[0]]['group'] = rowCols[4];
+                            mainJSON[rowCols[0]]['rank2011'] = rowCols[5];
+                            mainJSON[rowCols[0]]['rank2012'] = rowCols[6];
+                        }
+                    }
+                    alert('Finished Reading!');
+                };
+                reader.readAsBinaryString(cauOrganisationsInput.files[0]);
+            });
+
             var courseStageInput = document.getElementById('courseStagePicker');
+            courseStageInput.addEventListener('change', function() {
+                var reader = new FileReader();
+                reader.onload = function() {
+                    var rows = reader.result.split('\n');
+                    for (var i = 0; i < rows.length; i ++) {
+                        var rowCols = rows[i].split(',');
+                        if (mainJSON[rowCols[1]] && mainJSON[rowCols[1]][rowCols[2]] && mainJSON[rowCols[1]][rowCols[2]][rowCols[3]]) {
+                            if (!mainJSON[rowCols[1]][rowCols[2]][rowCols[3]]['years']) {
+                                mainJSON[rowCols[1]][rowCols[2]][rowCols[3]]['years'] = parseInt(rowCols[11], 10);
+                            } else if (mainJSON[rowCols[1]][rowCols[2]][rowCols[3]]['years'] < parseInt(rowCols[11], 10)) {
+                                mainJSON[rowCols[1]][rowCols[2]][rowCols[3]]['years'] = parseInt(rowCols[11], 10);
+                            }
+                        }
+                    }
+                    alert('Finished Reading');
+                };
+                reader.readAsBinaryString(courseStageInput.files[0]);
+            });
+
+            var institutionInput = document.getElementById('institutionPicker');
+            institutionInput.addEventListener('change', function() {
+                var reader = new FileReader();
+                reader.onload = function() {
+                    var rows = reader.result.split('\n');
+                    for (var i = 0; i < rows.length; i ++) {
+                        var rowCols = rows[i].split(',');
+                        if (mainJSON[rowCols[1]]) {
+                            mainJSON[rowCols[1]]['uniUrl'] = rowCols[5];
+                        }
+                    }
+                    alert('Finished Reading!');
+                };
+                reader.readAsBinaryString(institutionInput.files[0]);
+            });
         </script>
     </body>
 </html>

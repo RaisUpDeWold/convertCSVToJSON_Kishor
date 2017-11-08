@@ -20,7 +20,7 @@
         <p>Start Index : <input type="text" id="startIndexInput" /></p>
         <p>End Index : <input type="text" id="endIndexInput" /></p>
         <p><input type="button" value="Generate JSON" onclick="generateJSON()" /></p>
-
+        
         <output id="out">
         </output>
 
@@ -29,86 +29,43 @@
 
             // Return array of string values, or NULL if CSV string not well formed.
             function CSVtoArray( strData, strDelimiter ){
-                // Check to see if the delimiter is defined. If not,
-                // then default to comma.
+                // Check to see if the delimiter is defined. If not, then default to comma.
                 strDelimiter = (strDelimiter || ",");
-        
                 // Create a regular expression to parse the CSV values.
                 var objPattern = new RegExp(
                     (
-                        // Delimiters.
-                        "(\\" + strDelimiter + "|\\r?\\n|\\r|^)" +
-        
-                        // Quoted fields.
-                        "(?:\"([^\"]*(?:\"\"[^\"]*)*)\"|" +
-        
-                        // Standard fields.
-                        "([^\"\\" + strDelimiter + "\\r\\n]*))"
-                    ),
-                    "gi"
-                    );
-        
-        
-                // Create an array to hold our data. Give the array
-                // a default empty first row.
-                var arrData = [[]];
-        
-                // Create an array to hold our individual pattern
-                // matching groups.
-                var arrMatches = null;
-        
-        
-                // Keep looping over the regular expression matches
-                // until we can no longer find a match.
-                while (arrMatches = objPattern.exec( strData )){
-        
+                        "(\\" + strDelimiter + "|\\r?\\n|\\r|^)" +  // Delimiters.
+                        "(?:\"([^\"]*(?:\"\"[^\"]*)*)\"|" +         // Quoted fields.
+                        "([^\"\\" + strDelimiter + "\\r\\n]*))"     // Standard fields.
+                    ), "gi"
+                );
+                var arrData = [[]];     // Create an array to hold our data. Give the array a default empty first row.
+                var arrMatches = null;  // Create an array to hold our individual pattern matching groups.
+                // Keep looping over the regular expression matches until we can no longer find a match.
+                while (arrMatches = objPattern.exec(strData)){
                     // Get the delimiter that was found.
-                    var strMatchedDelimiter = arrMatches[ 1 ];
-        
-                    // Check to see if the given delimiter has a length
-                    // (is not the start of string) and if it matches
-                    // field delimiter. If id does not, then we know
-                    // that this delimiter is a row delimiter.
-                    if (
-                        strMatchedDelimiter.length &&
-                        strMatchedDelimiter !== strDelimiter
-                        ){
-        
-                        // Since we have reached a new row of data,
-                        // add an empty row to our data array.
+                    var strMatchedDelimiter = arrMatches[1];
+                    // Check to see if the given delimiter has a length (is not the start of string) and if it matches
+                    // field delimiter. If id does not, then we know that this delimiter is a row delimiter.
+                    if (strMatchedDelimiter.length && strMatchedDelimiter !== strDelimiter){
+                        // Since we have reached a new row of data, add an empty row to our data array.
                         arrData.push( [] );
-        
                     }
-        
-                    var strMatchedValue;
-        
-                    // Now that we have our delimiter out of the way,
-                    // let's check to see which kind of value we
-                    // captured (quoted or unquoted).
-                    if (arrMatches[ 2 ]){
-        
-                        // We found a quoted value. When we capture
-                        // this value, unescape any double quotes.
+                    var strMatchedValue;                    
+                    if (arrMatches[ 2 ]){   // Now that we have our delimiter out of the way, let's check to see which kind of value we captured (quoted or unquoted).
+                        // We found a quoted value. When we capture this value, unescape any double quotes.
                         strMatchedValue = arrMatches[ 2 ].replace(
                             new RegExp( "\"\"", "g" ),
                             "\""
-                            );
-        
+                        );
                     } else {
-        
-                        // We found a non-quoted value.
-                        strMatchedValue = arrMatches[ 3 ];
-        
+                        strMatchedValue = arrMatches[3];      // We found a non-quoted value.
                     }
-        
-        
-                    // Now that we have our value string, let's add
-                    // it to the data array.
-                    arrData[ arrData.length - 1 ].push( strMatchedValue );
-                }
-        
+                    // Now that we have our value string, let's add it to the data array.
+                    arrData[arrData.length - 1].push(strMatchedValue);
+                }    
                 // Return the parsed data.
-                return( arrData );
+                return(arrData);
             }
 
             function generateJSON() {
@@ -123,45 +80,36 @@
                 for (var i = startIndex; i < endIndex; i ++) {
                     var KISCOURSEID = Object.keys(mainJSON[UKPRN[i]]);
                     for (var j = 0; j < KISCOURSEID.length; j ++) {
+                        if (KISCOURSEID[j] == 'uniUrl') continue;
+                        if (KISCOURSEID[j] == 'uniName') continue;
+                        if (KISCOURSEID[j] == 'group') continue;
+                        if (KISCOURSEID[j] == 'rank2011') continue;
+                        if (KISCOURSEID[j] == 'rank2012') continue;
+
                         var KISMODE = Object.keys(mainJSON[UKPRN[i]][KISCOURSEID[j]]);
                         for (var k = 0; k < KISMODE.length; k ++) {
-                            var uniToolTip = UKPRN[i],
-                            courseToolTip = UKPRN[i],
-                            subjectName = UKPRN[i],
-                            subjectToolTip = UKPRN[i],
-                            entry = UKPRN[i],
-                            entryToolTip = UKPRN[i],
-                            UCAS = UKPRN[i],
-                            UCASToolTip = UKPRN[i],
-                            yearsToolTip = UKPRN[i],
-                            qualificationToolTip = UKPRN[i],
-                            offers = UKPRN[i],
-                            offersToolTip = UKPRN[i],
-                            groupUrl = UKPRN[i],
-                            groupToolTip = UKPRN[i];
-                        
                             addTextNode('{' + '<br>' + 
                                         '"uniName":"' + mainJSON[UKPRN[i]]['uniName'] + '",' + '<br>' +
                                         '"uniUrl":"' + mainJSON[UKPRN[i]]['uniUrl'] + '",' + '<br>' +
-                                        '"uniToolTip":"' + uniToolTip + '",' + '<br>' +
+                                        '"uniToolTip":"",' + '<br>' +
                                         '"courseName":"' + mainJSON[UKPRN[i]][KISCOURSEID[j]][KISMODE[k]]['courseName'] + '",' + '<br>' +
                                         '"courseUrl":"' + mainJSON[UKPRN[i]][KISCOURSEID[j]][KISMODE[k]]['courseUrl'] + '",' + '<br>' +
-                                        '"courseToolTip":"' + courseToolTip + '",' + '<br>' +
-                                        '"subjectName":"' + subjectName + '",' + '<br>' +
-                                        '"subjectToolTip":"' + subjectToolTip + '",' + '<br>' +
-                                        '"entry":"' + entry + '",' + '<br>' +
-                                        '"entryToolTip":"' + entryToolTip + '",' + '<br>' +
-                                        '"UCAS":"' + UCAS + '",' + '<br>' +
-                                        '"UCASToolTip":"' + UCASToolTip + '",' + '<br>' +
+                                        '"courseToolTip":"",' + '<br>' +
+                                        '"subjectName":"",' + '<br>' +
+                                        '"subjectToolTip":"",' + '<br>' +
+                                        '"entry":"",' + '<br>' +
+                                        '"entryToolTip":"",' + '<br>' +
+                                        '"UCAS":"",' + '<br>' +
+                                        '"UCASToolTip":"",' + '<br>' +
                                         '"years":"' + mainJSON[UKPRN[i]][KISCOURSEID[j]][KISMODE[k]]['years'] + '",' + '<br>' +
-                                        '"yearsToolTip":"' + yearsToolTip + '",' + '<br>' +
+                                        '"yearsToolTip":"",' + '<br>' +
                                         '"qualification":"' + mainJSON[UKPRN[i]][KISCOURSEID[j]][KISMODE[k]]['qualification'] + '",' + '<br>' +
-                                        '"qualificationToolTip":"' + qualificationToolTip + '",' + '<br>' +
-                                        '"offers":"' + offers + '",' + '<br>' +
-                                        '"offersToolTip":"' + offersToolTip + '",' + '<br>' +
+                                        '"qualificationToolTip":"",' + '<br>' +
+                                        '"offers":"",' + '<br>' +
+                                        '"offersToolTip":"",' + '<br>' +
                                         '"group":"' + mainJSON[UKPRN[i]]['group'] + '",' + '<br>' +
-                                        '"groupUrl":"' + groupUrl + '",' + '<br>' +
-                                        '"groupToolTip":"' + groupToolTip + '",' + '<br>' +
+                                        '"groupUrl":"",' + '<br>' +
+                                        '"groupToolTip":"",' + '<br>' +
                                         '"rank2011":"' + mainJSON[UKPRN[i]]['rank2011'] + '",' + '<br>' +
                                         '"rank2012":"' + mainJSON[UKPRN[i]]['rank2012'] + '"' + '<br>' +
                                         '},');
@@ -184,9 +132,9 @@
                     var rows = reader.result.split("\n");
                     for (var i = 1; i < rows.length; i ++) {
                         var rowCols = CSVtoArray(rows[i])[0];
-                        if (!mainJSON[rowCols[1]]) mainJSON[rowCols[1]] = {};
-                        if (!mainJSON[rowCols[1]][rowCols[16]]) mainJSON[rowCols[1]][rowCols[16]] = {};
-                        if (!mainJSON[rowCols[1]][rowCols[16]][rowCols[17]]) mainJSON[rowCols[1]][rowCols[16]][rowCols[17]] = {};
+                        if (typeof mainJSON[rowCols[1]] === 'undefined') mainJSON[rowCols[1]] = {};
+                        if (typeof mainJSON[rowCols[1]][rowCols[16]] === 'undefined') mainJSON[rowCols[1]][rowCols[16]] = {};
+                        if (typeof mainJSON[rowCols[1]][rowCols[16]][rowCols[17]] === 'undefined') mainJSON[rowCols[1]][rowCols[16]][rowCols[17]] = {};
                         mainJSON[rowCols[1]][rowCols[16]][rowCols[17]]['courseName'] = rowCols[39] + ' : ' + rowCols[16];
                         mainJSON[rowCols[1]][rowCols[16]][rowCols[17]]['courseUrl'] = rowCols[4];
                     }
@@ -194,7 +142,7 @@
                 };
                 reader.readAsBinaryString(kisCourseInput.files[0]);
             });
-
+            
             var cauCoursesInput = document.getElementById('cauCoursesPicker');
             cauCoursesInput.addEventListener('change', function() {
                 var reader = new FileReader();
@@ -202,7 +150,9 @@
                     var rows = reader.result.split('\n');
                     for (var i = 1; i < rows.length; i ++) {
                         var rowCols = CSVtoArray(rows[i])[0];
-                        if (mainJSON[rowCols[0]] && mainJSON[rowCols[0]][rowCols[4]] && mainJSON[rowCols[0]][rowCols[4]][rowCols[5]]) {
+                        if (typeof mainJSON[rowCols[0]] !== 'undefined' && 
+                            typeof mainJSON[rowCols[0]][rowCols[4]] !== 'undefined' && 
+                            typeof mainJSON[rowCols[0]][rowCols[4]][rowCols[5]] !== 'undefined') {
                             mainJSON[rowCols[0]][rowCols[4]][rowCols[5]]['qualification'] = rowCols[14];
                         }
                     }
@@ -210,7 +160,7 @@
                 };
                 reader.readAsBinaryString(cauCoursesInput.files[0]);
             });
-
+            
             var cauOrganisationsInput = document.getElementById('cauOrganisationsPicker');
             cauOrganisationsInput.addEventListener('change', function() {
                 var reader = new FileReader();
@@ -218,7 +168,7 @@
                     var rows = reader.result.split('\n');
                     for (var i = 1; i < rows.length; i ++) {
                         var rowCols = CSVtoArray(rows[i])[0];
-                        if (mainJSON[rowCols[0]]) {
+                        if (typeof mainJSON[rowCols[0]] !== 'undefined') {
                             mainJSON[rowCols[0]]['uniName'] = rowCols[1];
                             mainJSON[rowCols[0]]['group'] = rowCols[4];
                             mainJSON[rowCols[0]]['rank2011'] = rowCols[5];
@@ -237,8 +187,10 @@
                     var rows = reader.result.split('\n');
                     for (var i = 1; i < rows.length; i ++) {
                         var rowCols = CSVtoArray(rows[i])[0];
-                        if (mainJSON[rowCols[1]] && mainJSON[rowCols[1]][rowCols[2]] && mainJSON[rowCols[1]][rowCols[2]][rowCols[3]]) {
-                            if (!mainJSON[rowCols[1]][rowCols[2]][rowCols[3]]['years']) {
+                        if (typeof mainJSON[rowCols[1]] !== 'undefined' && 
+                            typeof mainJSON[rowCols[1]][rowCols[2]] !== 'undefined' && 
+                            typeof mainJSON[rowCols[1]][rowCols[2]][rowCols[3]] !== 'undefined') {
+                            if (typeof mainJSON[rowCols[1]][rowCols[2]][rowCols[3]]['years'] === 'undefined') {
                                 mainJSON[rowCols[1]][rowCols[2]][rowCols[3]]['years'] = parseInt(rowCols[11], 10);
                             } else if (mainJSON[rowCols[1]][rowCols[2]][rowCols[3]]['years'] < parseInt(rowCols[11], 10)) {
                                 mainJSON[rowCols[1]][rowCols[2]][rowCols[3]]['years'] = parseInt(rowCols[11], 10);
@@ -257,7 +209,7 @@
                     var rows = reader.result.split('\n');
                     for (var i = 1; i < rows.length; i ++) {
                         var rowCols = CSVtoArray(rows[i])[0];
-                        if (mainJSON[rowCols[1]]) {
+                        if (typeof mainJSON[rowCols[1]] !== 'undefined') {
                             mainJSON[rowCols[1]]['uniUrl'] = rowCols[5];
                         }
                     }
